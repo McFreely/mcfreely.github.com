@@ -19,7 +19,7 @@ a:hover {
 }
 
 h2 {
-	color:#868686;
+	color:#FF0083;
 	font-family:'Anton', Helvetica, Arial, sans-serif;
 	font-size:2.1875em;
 	line-height:1.2em;
@@ -36,7 +36,7 @@ h3 {
 }
 
 h4 {
-	color:#000;
+	color:#00FF3A;
 	font-size:1.5em;
 	line-height:1.2em;
 	margin-bottom:10px;
@@ -47,7 +47,6 @@ h4:after {
 }
 
 body {
-	
 	color:#444;
 	font-family:Cambria,Georgia,"Times New Roman",serif;
 	font-size:100%;
@@ -63,7 +62,7 @@ ol, ul {
 }
 
 ul {
-	list-style:disc;
+	list-style:none;
 	margin-left:25px;
 }
 
@@ -169,7 +168,7 @@ footer {
 }
 
 .site-heading {
-	color:pink;
+	color:#0CD0F7;
 	font-family:'Anton',Helvetica, Arial, sans-serif;
 	font-size:2em;
 	font-weight:normal;
