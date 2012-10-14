@@ -1,0 +1,15 @@
+---
+layout: post
+title: Extreme Gamification
+tags: 
+- Utopia
+- Futures of yesterday
+---
+
+<p>Testing is critical to any application development process. Seeing that green bar instills confidence to move forward, and gives you a handy tool to ensure any future changes won't break your carefully crafted application.</p>
+
+<p>CakePHP is one of the big kids on the block for rapid development in the PHP community, and it comes with some nice tools for testing your MVC applications. We are going to take a look at testing the M in that acronym. Let's cover setting up fixtures and test cases to automate this process.</p>
+
+<h2>What Is The Document Outline?</h2>
+<p>The document outline is the structure of your HTML document. It is a means to visualize and navigate the hierarchy of it's contents, and this is exactly what screen readers use to help the visually impaired, and a well structured document doesn't hurt the search engines either.</p>
+<p>In the good 'ol rough and tumble days prior to HTML5, this hierarchy was established with our good friends in the h crew: h1 - h6. A typical outline might work out to something like this:</p>
