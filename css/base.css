@@ -58,7 +58,9 @@
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
-
+ 	div#main {
+ 		margin-top: 50px;
+ 	}
 
 /* #Typography
 ================================================== */
