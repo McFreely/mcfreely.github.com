@@ -216,7 +216,7 @@ article h1 {
 
 .posts {
 	font-size:1em;
-	list-style:disc;
+	list-style:none;
 	margin-left:20px;
 }
 	.posts h3 {
@@ -234,7 +234,6 @@ article h1 {
 
 	.posts a {
 		color:#444;
-		border-bottom:1px dotted black;
 		-moz-transition: color .2s ease-in-out;
 		-webkit-transition: color .2s ease-in-out;
 		-o-transition: color .2s ease-in-out;
