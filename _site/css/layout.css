@@ -9,34 +9,35 @@ a {
 	transition: color .2s ease-in-out;
 }
 a:link {
-	color:#007eff;
+	color:#F80070;
 }
 a:visited {
-	color:#004fa0;
+	color:#F80070;
 }
 a:hover {
-	color:#FF2919
+	color:#FF70B0;
 }
 
 h2 {
-	color:#868686;
+	color:#FF5E18;
 	font-family:'Anton', Helvetica, Arial, sans-serif;
-	font-size:2.1875em;
+	font-size:2em;
 	line-height:1.2em;
 	letter-spacing:1px;
-	margin-bottom:20px;
+	margin-top: 40px;
+	margin-bottom:15px;
 	text-transform:uppercase;
 	text-shadow:0 1px #fff;
 }
 
 h3 {
-	font-size:1.75em;
-	line-height:1.2em;
+	font-size:2em;
+	line-height:1.5em;
 	text-decoration:underline;
 }
 
 h4 {
-	color:#000;
+	color:#00FF3A;
 	font-size:1.5em;
 	line-height:1.2em;
 	margin-bottom:10px;
@@ -47,15 +48,15 @@ h4:after {
 }
 
 body {
-	background:#efefef url(images/arches.png) repeat left top;
 	color:#444;
 	font-family:Cambria,Georgia,"Times New Roman",serif;
 	font-size:100%;
 }
 
 p {
-	font-size:1.5em;
-	line-height:1.4em;
+	font-size:1.6em;
+	line-height:1.7em;
+	text-align: justify;
 }
 
 ol, ul {
@@ -63,8 +64,8 @@ ol, ul {
 }
 
 ul {
-	list-style:disc;
-	margin-left:25px;
+	list-style:none;
+	margin-left:10px;
 }
 
 li {
@@ -162,20 +163,37 @@ footer {
 
 #branding {
 	margin-bottom:10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
+#nav {
+
+}
+
+.menu {
+	color: #ccc;
+}
+
+.menu a {
+	height: 50px;
+	margin: 0 10px 0 10px;
+}
+
+
 #sidebar {
-	margin-top:75px;
+	margin-top:25px;
 }
 
 .site-heading {
-	color:#007eff;
+	color:#0CD0F7;
 	font-family:'Anton',Helvetica, Arial, sans-serif;
-	font-size:5em;
+	font-size:3em;
 	font-weight:normal;
 	line-height:1.2em;
 	letter-spacing:1.5px;
-	margin:55px 0 14px 0;
+	margin:10px 0 14px 0;
 	text-shadow:1px 1px #004fa0, 2px 2px #004fa0, 3px 3px #004fa0, 4px 4px #004fa0, 5px 5px #004fa0;
 	text-transform:uppercase;
 }
@@ -183,12 +201,12 @@ footer {
 .site-subheading {
 	color:#444;
 	font-family: Georgia,"Times New Roman", serif;
-	font-size:1.6em !important;
+	font-size:1.4em !important;
 	letter-spacing:0;
 	line-height:1.2em !important;
-	margin:25px 0;
-	text-transform:uppercase;
+	margin:15px 0;
 	text-shadow:none;
+	clear: both;
 }
 
 #subscribe-link {
@@ -199,14 +217,14 @@ footer {
 /*= Posts
 *****************************/
 article h1 {
-	color:#B7CC14;
+	color:#FF5E18;
 	font-family:'Anton',Helvetica, Arial, sans-serif;
 	font-size:3em;
 	font-weight:normal;
 	line-height:1.2em;
 	letter-spacing:1.5px;
 	margin-bottom:14px;
-	text-shadow:1px 1px #6b770c, 2px 2px #6b770c, 3px 3px #6b770c;
+	text-shadow:1px 1px #ff9365, 2px 2px #ff9365;
 	text-transform:uppercase;
 }
 	article h1 .post-date {
@@ -216,13 +234,14 @@ article h1 {
 	}
 
 .posts {
-	font-size:1em;
+	font-size:1.3em;
 	list-style:disc;
-	margin-left:20px;
+	color: #FF5E18;
+	margin-left:50px;
 }
 	.posts h3 {
 		font-family:Georgia, "Times New Roman", serif;
-		font-size:1.2em;
+		font-size:1.3em;
 		line-height:1.2em;
 		margin-bottom:10px;
 		text-transform:none;
@@ -235,7 +254,6 @@ article h1 {
 
 	.posts a {
 		color:#444;
-		border-bottom:1px dotted black;
 		-moz-transition: color .2s ease-in-out;
 		-webkit-transition: color .2s ease-in-out;
 		-o-transition: color .2s ease-in-out;
@@ -244,7 +262,7 @@ article h1 {
 	}
 
 	.posts a:hover {
-		color:#007eff;
+		color:#FF5E18;
 	}
 
 	.post-date,
@@ -253,6 +271,7 @@ article h1 {
 		font-size:.75em;
 		padding-left:10px;
 	}
+
 
 /*= Disqus
 ***********************************************/
