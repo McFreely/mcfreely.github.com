@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Extreme Gamification
-tags: 
-- Utopia
-- Futures of yesterday
 ---
 
 <p>Testing is critical to any application development process. Seeing that green bar instills confidence to move forward, and gives you a handy tool to ensure any future changes won't break your carefully crafted application.</p>
