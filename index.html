@@ -3,14 +3,12 @@ layout: default
 title: McFreely
 ---
 
-<h1 class="sub-heading" id="writings">The posts</h1>
+<h1 class="sub-heading">The posts</h1>
 <ul class="posts">
 	{% for post in site.posts %}
 	<li>
-		<h3>
 		    <a href="{{ post.url }}">{{ post.title }}</a>
 		    <span class="post-date">{{ post.date | date_to_string }}</span>
-		</h3>
 	</li>
 	{% endfor %}
 </ul>

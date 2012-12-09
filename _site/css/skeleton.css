@@ -171,9 +171,39 @@
         .container .offset-by-fourteen,
         .container .offset-by-fifteen { padding-left: 0; }
 
-        p {
+        .site-heading {
+            font-size: 2em;
+        }
+
+        .sub-heading {
+            color:#FFBF83;
+            font-family:'Anton',Helvetica, Arial, sans-serif;
+            font-size:1.8em;
+            font-weight:normal;
+            line-height:1.2em;
+            letter-spacing:1.5px;
+            margin-bottom:14px;
+            text-shadow:1px 1px #999;
+            text-transform:uppercase;
+        }
+
+        .posts li span {
+            display: none;
+        }
+
+        body article h1 {
+            font-size: 1.8em;
+        }
+
+        body article h1 .post-date {
+            float: bottom;
+        }
+
+        body p {
             font-size: 1.4em;
-            line-height: 1.2em;
+            line-height: 1.4em;
+            padding: 10px;
+            margin-bottom: 15px;
         }
     }
 
