@@ -152,7 +152,7 @@
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
-        .container .two-thirds.column  { width: 300px; }
+        .container .two-thirds.column  { width: 300px; /*padding: 10px;*/ }
 
         /* Offsets */
         .container .offset-by-one,
@@ -171,6 +171,10 @@
         .container .offset-by-fourteen,
         .container .offset-by-fifteen { padding-left: 0; }
 
+        p {
+            font-size: 1.4em;
+            line-height: 1.2em;
+        }
     }
 
 
