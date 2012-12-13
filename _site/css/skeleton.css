@@ -200,6 +200,7 @@
             line-height: 1.4em;
             padding: 10px;
             margin-bottom: 15px;
+            hyphens: auto;
         }
     }
 

@@ -4,12 +4,12 @@ title: Extreme Gamification
 ---
 
 <p>
-	I think it really started with foursquare. Even though a few earlier, more primitive mechanisms already existed, Foursquare was the first time people accepted this concept.
+	I think it really started with Foursquare. Even though a few earlier, more primitive mechanisms already existed, Foursquare was the first time people accepted this concept.
 This concept was simple and quite clever : add a game aspect to something that is not a game.
 </p>
 <p>
 	A classic business application is boring and no one is exited to work with it. Add badges, and ranks, and points and objects to gain, suddendly, people will strat to pay more attention to the application.
-Something even more surprising appears : people put thmselves in competition for something they wouldn't have in a million year if presented explicitely.
+Something even more surprising appears : people put themselves in competition for something they wouldn't have in a million year if presented explicitely.
 </p>
 
 

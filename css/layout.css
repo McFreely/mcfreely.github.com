@@ -69,6 +69,11 @@ p {
 	font-size:1.6em;
 	line-height:1.7em;
 	text-align: justify;
+	/*word-break: break-all;*/
+	word-break: break-word;
+	-webkit-hyphens: auto;
+	   -moz-hyphens: auto;
+            hyphens: auto;
 }
 
 ol, ul {
