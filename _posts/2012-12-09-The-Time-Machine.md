@@ -1,6 +1,10 @@
 ---
 layout: post
 title: The Time Machine
+category: essay
+description: Let's go travel to the limits of time !
+tags:
+- Travel
 ---
 
 When the time machine will be invented, and it will be, in a few years or in 1882, it won't be quite what we expect.
@@ -13,4 +17,4 @@ This thought could drastically change a nostalgic mind. The possibility of a bet
 
 Incidentely, and paradoxically, time travel will have been invented, but that's just a little detail…
 
-Or it could be the revelation that there was no doom in sight, no values' destruction, no discernable change from one generation to the next. Life is and Life will be, whatever happen to us.
+Or it could be the revelation that there was no doom in sight, no values destruction, no discernable change from one generation to the next. Life is and Life will be, whatever happen to us.
