@@ -9,13 +9,13 @@ a {
 	transition: color .2s ease-in-out;
 }
 a:link {
-	color:black;
+	color:#DAE9FB;
 }
 a:visited {
-	color:#092649;
+	color:#DAE9FB;
 }
 a:hover {
-	color:#92BDF2;
+	color:#DAE9FB;
 }
 
 h1 {
