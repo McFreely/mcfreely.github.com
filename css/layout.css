@@ -9,13 +9,13 @@ a {
 	transition: color .2s ease-in-out;
 }
 a:link {
-	color:#DAE9FB;
+	color:#0D386D;
 }
 a:visited {
-	color:#DAE9FB;
+	color:#0D386D;
 }
 a:hover {
-	color:#DAE9FB;
+	color:#92BDF2;
 }
 
 h1 {
@@ -41,9 +41,20 @@ h2 {
 }
 
 h3 {
+	color: #0D386D;
 	font-size:2em;
 	line-height:1.5em;
 	text-decoration:underline;
+	-moz-transition: color .2s ease-in-out;
+	-webkit-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+
+h3:hover {
+	color:#92BDF2;
 }
 
 h4 {
@@ -246,7 +257,7 @@ menu a:hover {
 	text-align: right;
 }
 
-.technical ul li h3{
+.technical ul a h3{
 	text-align: right;
 }
 
@@ -265,20 +276,12 @@ menu a:hover {
 	text-decoration: none;
 	font-family: 'Ubuntu', sans-serif;
 	margin: 0;
-	-moz-transition: color .2s ease-in-out;
-	-webkit-transition: color .2s ease-in-out;
-	-o-transition: color .2s ease-in-out;
-	-ms-transition: color .2s ease-in-out;
-	transition: color .2s ease-in-out;
 }
 
 .feed h3 i {
 	margin-right: 10px;
 }
 
-.feed h3:hover {
-	color:#92BDF2;
-}
 
 .feed p {
 	margin:0 0 50px 0;
@@ -409,7 +412,20 @@ footer {
 			/*margin-top:15px;*/
 		}
 
-		.sub-heading {
+		.branding {
+            padding: 20px 0;
+        }
+
+        .branding p {
+            margin: 0 0 10px 0;
+            padding: 0;
+        }
+
+        .branding h1 {
+            font-size: 2em;
+        }
+
+		/*.sub-heading {
             color:#FFBF83;
             font-family:'Anton',Helvetica, Arial, sans-serif;
             font-size:1.8em;
@@ -419,7 +435,7 @@ footer {
             margin-bottom:14px;
             text-shadow:1px 1px #999;
             text-transform:uppercase;
-        }
+        }*/
 
         .posts li span {
             display: none;
@@ -492,7 +508,7 @@ footer {
 	}
 
 	footer {
-		padding: 0 10px;
+		padding: 10px;
 	}
 
 	}
