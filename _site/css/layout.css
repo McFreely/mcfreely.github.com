@@ -1,7 +1,8 @@
 /* #Site Styles
 ================================================== */
 a {
-	text-decoration:none;
+	color:#0D386D;
+	text-decoration: none;
 	-moz-transition: color .2s ease-in-out;
 	-webkit-transition: color .2s ease-in-out;
 	-o-transition: color .2s ease-in-out;
@@ -463,6 +464,7 @@ footer {
 		}
 		menu a, menu a:visited {
 			display: inline;
+			text-decoration: none;
 			padding: 5px;
 			font-size: 1.2em;
 			color: #DAE9FB;
@@ -472,9 +474,7 @@ footer {
 			     -o-transition: background-color .2s ease-in-out;
 			        transition: background-color .2s ease-in-out;
 		}
-		menu a:hover {
-			background-color: #071C36;
-		}
+
 		menu a i.icon-bullhorn,
 		menu a i.icon-bookmark,
 		menu a i.icon-beaker,
