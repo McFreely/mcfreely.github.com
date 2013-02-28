@@ -218,7 +218,7 @@ menu {
 	margin: 0 auto;
 	text-align: center;
 }
-menu a, menu a:visited {
+menu a, menu a:link, menu a:visited {
 	height: 75px;
 	width: 125px;
 	margin:0;
@@ -467,7 +467,7 @@ footer {
 			text-decoration: none;
 			padding: 5px;
 			font-size: 1.2em;
-			color: orange;
+			color: #DAE9FB;
 			-webkit-transition: background-color .2s ease-in-out;
 			   -moz-transition: background-color .2s ease-in-out;
 			    -ms-transition: background-color .2s ease-in-out;
