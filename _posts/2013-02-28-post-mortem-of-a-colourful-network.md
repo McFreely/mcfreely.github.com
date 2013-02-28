@@ -1,7 +1,11 @@
 ---
+category: not published
+
 layout: post
 title: The Post Mortem Of A Colourful Network
-category: essay
 description: I really liked Color, to which dedicate this post ...
-tags: Monet
+image: /images/banners/network.png
+placeholder: a random social network
+tags:
+- Van Gogh
 ---

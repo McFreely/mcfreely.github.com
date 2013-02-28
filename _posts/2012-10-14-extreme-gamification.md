@@ -3,7 +3,10 @@ layout: post
 title: Extreme Gamification
 category: essay
 description: What could happen if gamification was in every facet of our lives is quite disconcerting...
-tags: Distractions
+image: /images/banners/badges.jpg
+alt: a collection of badges
+tags:
+- Distractions
 ---
 
 

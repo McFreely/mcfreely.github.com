@@ -70,7 +70,7 @@ h4:after {
 }
 
 body {
-	background-color: #EDF4FD;
+	background-color: #f5f8fe;
 	color:#444;
 	font-size:100%;
 }
@@ -294,14 +294,19 @@ menu a:hover {
 article h1 {
 	color:#0D386D;
 	font-family: 'Ubuntu', cursive;
-	font-size:3em;
+	font-size: 2em;
 	font-weight:normal;
 	line-height:1.2em;
 	letter-spacing:1.5px;
-	margin-bottom:0px;
-	padding-top: 50px;
+	padding: 25px 0 10px 0;
 	text-transform:uppercase;
 	text-align: center;
+}
+
+.banner {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 article a {
@@ -443,7 +448,7 @@ footer {
         }
 
         body article h1 {
-            font-size: 1.8em;
+            font-size: 1.4em;
         }
 
         body article h1 .post-date {
