@@ -462,20 +462,7 @@ footer {
 			width: 100%;
 			margin: 0 auto;
 		}
-		menu a {
-			display: inline;
-			text-decoration: none;
-			padding: 5px;
-			font-size: 1.2em;
-			color: orange;
-			-webkit-transition: background-color .2s ease-in-out;
-			   -moz-transition: background-color .2s ease-in-out;
-			    -ms-transition: background-color .2s ease-in-out;
-			     -o-transition: background-color .2s ease-in-out;
-			        transition: background-color .2s ease-in-out;
-		}
-
-		menu a:visited {
+		menu a, menu a:link, menu a:visited {
 			display: inline;
 			text-decoration: none;
 			padding: 5px;
