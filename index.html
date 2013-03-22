@@ -1,16 +1,37 @@
 ---
 layout: default
-title: Home
+title: Archives
 ---
-
 <div class="container">
-	<div class="sixteen columns feed">
-		<h2>Previously on this blog ...</h2>
-		{% for post in site.posts limit:5 %}
-			<a href="{{ post.url }}">
-				<h3><i class="icon-comment-alt"></i>{{ post.title }}</h3>
-			</a>
-			<p>{{ post.description }}</p>
-		{% endfor %}
+	<div class="eight columns">
+		<div class="essay">
+			<h2>:: Writings</h2>
+			<ul class='posts'>
+				{% for post in site.categories.essay %}
+					<a href="{{ post.url }}">
+						<h3>
+							{{ post.title }}
+						</h3>
+					</a>
+				{% endfor %}
+			</ul>
+
+		</div>
+	</div>
+
+	<div class="eight columns">
+		<div class="technical">
+			<h2>Technical ::</h2>
+			<ul class='posts'>
+				{% for post in site.categories.technical %}
+					<a href="{{ post.url }}">
+						<h3>
+							{{ post.title }}
+						</h3>
+					</a>
+				{% endfor %}
+			</ul>
+
+		</div>
 	</div>
 </div>

@@ -1,0 +1,16 @@
+---
+layout: default
+title: Home
+---
+
+<div class="container">
+	<div class="sixteen columns feed">
+		<h2>Previously on this blog ...</h2>
+		{% for post in site.posts limit:5 %}
+			<a href="{{ post.url }}">
+				<h3><i class="icon-comment-alt"></i>{{ post.title }}</h3>
+			</a>
+			<p>{{ post.description }}</p>
+		{% endfor %}
+	</div>
+</div>

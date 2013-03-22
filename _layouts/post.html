@@ -8,7 +8,9 @@
 			<img src="{{ page.image }}" alt="{{ page.placeholder }}" class="banner">
 			<div class="sub-title">
 
-				<span class="post-date"><i class="icon-calendar"></i>{{ page.date || date_to_string }}</span>
+				<span class="post-date">
+					<i class="icon-calendar"></i>{{ page.date || date_to_string }}
+				</span>
 				<span class="post-tags">
 					{% for tag in page.tags %}
 						<span><i class="icon-tag"></i>{{ tag }}</span>
