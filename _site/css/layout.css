@@ -172,8 +172,6 @@ menu a, menu a:link, menu a:visited {
 	height: 30px;
 	margin-top:2px;
 	padding-left: 20px;
-	/*background: #0b416f;
-	box-shadow: inset 0px 2px 5px 0px #083052;*/
 	border-left: 3px solid #20c8e6;
 }
 
@@ -291,29 +289,36 @@ article a {
 ================================================== */
 	@media (max-width: 1539px) {
 		article {
-			margin: 40px 0 0 390px;
+			margin: 40px 0 0 340px;
 		}
 	}
 
 	/* Smaller than standard 960 (devices and browsers) */
 	@media (max-width: 1000px) {
 		aside {
-			position: static;
+			position: relative;
+			bottom:0;
 			width: 100%; height: auto;
 			text-align: center;
 			padding-bottom: 20px;
 		}
+		.presentation p {
+			text-align: center;
+		}
+		menu {
+			width: 70%;
+			margin: 5px auto;
+			text-align: center;
+		}
 		menu a, menu a:visited, menu a:link {
 			display: inline;
 			padding: 10px 30px;
-		}
-		aside p {
-			width: 100%;
-			text-align: center;
+			border: none;
 		}
 
 		article {
-			margin: 40px 0 0 50px;
+			margin: 40px 0 0 0px;
+			padding: 15px;
 		}
 		.posts li span {
             display: none;
@@ -358,5 +363,13 @@ article a {
 		article{
 			margin:0px;
 			padding:15px;
+		}
+		aside {
+			width:100%;
+		}
+		menu a, menu a:link, menu a:visited {
+			display: inline;
+			padding: 10px;
+			border: none;
 		}
 	}
