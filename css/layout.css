@@ -26,7 +26,6 @@ h1 {
 	line-height:1.2em;
 	letter-spacing:1.5px;
 }
-
 h2 {
 	color: #12538e;
 	font-family:'Ubuntu', Helvetica, Arial, sans-serif;
@@ -38,24 +37,12 @@ h2 {
 	text-transform:uppercase;
 	text-align:left;
 }
-
 h3 {
 	color: #12538e;
-	font-size:2em;
+	font-size:1.7em;
 	line-height:1.5em;
-	text-decoration:underline;
-	-moz-transition: color .5s ease-in-out;
-	-webkit-transition: color .5s ease-in-out;
-	-o-transition: color .5s ease-in-out;
-	-ms-transition: color .5s ease-in-out;
-	transition: color .5s ease-in-out;
+	text-decoration:none;
 }
-
-
-h3:hover {
-	color:#20c8e6;
-}
-
 h4 {
 	color:black;
 	font-size:1.3em;
@@ -255,6 +242,15 @@ article a {
 		text-transform:none;
 		text-decoration:none;
 		text-align: left;
+		-moz-transition: color .5s ease-in-out;
+		-webkit-transition: color .5s ease-in-out;
+		-o-transition: color .5s ease-in-out;
+		-ms-transition: color .5s ease-in-out;
+		transition: color .5s ease-in-out;
+	}
+
+	.posts h3:hover {
+		color:#20c8e6;
 	}
 
 	#sidebar .posts h3 {
