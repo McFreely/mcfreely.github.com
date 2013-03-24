@@ -2,36 +2,29 @@
 layout: default
 title: Archives
 ---
-<div class="container">
-	<div class="eight columns">
-		<div class="essay">
-			<h2>:: Writings</h2>
-			<ul class='posts'>
-				{% for post in site.categories.essay %}
-					<a href="{{ post.url }}">
-						<h3>
-							{{ post.title }}
-						</h3>
-					</a>
-				{% endfor %}
-			</ul>
+<article>
+	<div class="essay">
+		<h2>:: Writings</h2>
+		<ul class='posts'>
+			{% for post in site.categories.essay %}
+				<a href="{{ post.url }}">
+					<h3>
+						{{ post.date || date_to_string }} : {{ post.title }}
+					</h3>
+				</a>
+			{% endfor %}
+		</ul>
 
-		</div>
+
+		<h2>:: Technical</h2>
+		<ul class='posts'>
+			{% for post in site.categories.technical %}
+				<a href="{{ post.url }}">
+					<h3>
+						{{ post.date || date_to_string }} : {{ post.title }}
+					</h3>
+				</a>
+			{% endfor %}
+		</ul>
 	</div>
-
-	<div class="eight columns">
-		<div class="technical">
-			<h2>Technical ::</h2>
-			<ul class='posts'>
-				{% for post in site.categories.technical %}
-					<a href="{{ post.url }}">
-						<h3>
-							{{ post.title }}
-						</h3>
-					</a>
-				{% endfor %}
-			</ul>
-
-		</div>
-	</div>
-</div>
+</article>

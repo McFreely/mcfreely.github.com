@@ -57,7 +57,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: white;
+		background: #F3F4F6;
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
