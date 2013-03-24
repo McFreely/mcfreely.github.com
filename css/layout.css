@@ -138,6 +138,10 @@ aside {
 	text-align: center;
 }
 
+#space {
+	margin-bottom: 20px;
+}
+
 aside p {
 	color: #DAE9FB;
 	text-align: center;
@@ -146,7 +150,7 @@ aside p {
 
 aside > .presentation {
 	padding: 15px;
-	padding-top: 250px;
+	padding-top: 50px;
 }
 
 menu {
