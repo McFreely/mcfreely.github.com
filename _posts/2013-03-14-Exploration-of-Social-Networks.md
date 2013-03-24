@@ -2,7 +2,7 @@
 layout: post
 title: Exploration of Social Networks
 category: essay
-image: /images/banners/brain.jpg
+image: /images/banners/network.png
 alt: brainstorming cartoon
 tags:
 - A Billion Dollars
@@ -24,13 +24,16 @@ But first we must list the suspect of our investigation, and catecorize them for
 ## A view of the land
 
 We can order Social Networks (SN) in three broad categories:
-   - The top tier: Pure social Networks
-   - The second-tier : Those built uppon the first
-   - The Weird ones : The more experimental ones
+
+   	- The top tier : Pure social Networks
+
+   	- The second tier : Those built uppon the first
+
+   	- The Weird ones : The more experimental ones
 
 ### The Pure social Networks
 
-Those are obvious : Facebook, Twitter, Pinterest, etc...
+Those are obvious : [Facebook](http://facebook.com), [Twitter](http://twitter.com), [Pinterest](http://pinterest.com), etc...
 They are what i like to call "Pure" SNs because the almost replicate the way we would interact in real life. You add people you often already know,
 you exchange messages and invitations.
 They were built with the idea of a social network for the ground up,to merley enhance the normal social interactions you already have.
@@ -42,9 +45,8 @@ For SNs to tout "bringing people closer", it's quite ironic.
 
 ### The Leeches
 
-The second-tier of SNs are built upon the first one. These are the SNs that uses you're already existing Social Graph
-to offer you a myriad of services or recommandations relevant to you.
-A few of them comes to mind : Prismatic (news recommandation), Flixster (movie recommandations) [A completer]
+The second-tier of SNs are built upon the first one. These are the SNs that uses your already existing Social Graph to offer you a myriad of services or recommandations relevant to you.
+A few of them comes to mind : [Prismatic](http://getprismatic.com/) (news recommandation), [Flixster](http://www.flixster.com/) (movie recommandations).
 
 While they might offer a good service on paper, their weakness lies in their apparent force.
 They assume that my social graphs or my facebook likes are good data points for furure recommandations.
@@ -52,7 +54,7 @@ They assume that my social graphs or my facebook likes are good data points for 
 ### The Outcasts
 
 The weirdos, the neglected, the ill-loved.
-The one that stand from all the others is COLOR.
+The one that stand from all the others is [COLOR](/essay/2013/02/28/post-mortem-of-a-colourful-network.html).
 Besides all the management stories and internal conflicts (those are not the point), I think the original concept was quite interresting.
 The idea of a fluid SN was, and still is for me, an attractive idea. Saddly, it was too soon for the world to accept it.
 
