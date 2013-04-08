@@ -338,13 +338,14 @@ article a {
 			text-align: center;
 		}
 		menu a, menu a:visited, menu a:link {
+                        font-size: 1.3em;
 			display: inline;
 			padding: 10px 30px;
 			border: none;
 		}
 
 		article {
-			margin: 40px 0 0 0px;
+			margin: 0px 0 0 0px;
 			padding: 15px;
 		}
 		.posts li span {
@@ -395,6 +396,7 @@ article a {
 			width:100%;
 		}
 		menu a, menu a:link, menu a:visited {
+                        font-size:1.2em;
 			display: inline;
 			padding: 10px;
 			border: none;
