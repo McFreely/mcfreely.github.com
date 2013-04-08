@@ -186,6 +186,9 @@ menu a:hover {
 	color: #20c8e6;
 }
 
+.posts li h3 {display: inline;}
+.blog_menu_date {display: inline; font-size: 1.3em; color: rgb(143, 150, 180);}
+
 article {
 	max-width: 850px;
 	margin: 40px auto;
@@ -400,6 +403,6 @@ article a {
 			padding: 10px;
 			border: none;
 		}
-                
+                .posts li p {display: none;}
 
 	}
