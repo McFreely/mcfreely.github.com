@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Paul McFreely's Thoughts - The Architecture of RDC</title>
+  
+  <meta name="description" content="I have a few ideas and here they are">
+  
+  <meta name="author" content="Paul McFreely">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/base.css">
+  <!-- <link rel="stylesheet" href="/css/skeleton.css"> -->
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/pygments/pygments.css">
+  <link rel="stylesheet" href="/css/font-awesome.css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<article>
+	<h1>The Architecture of RDC</h1>
+	<img src="/images/banners/hallway.jpg" alt="" class="banner">
+	<div class="sub-title">
+
+		<span class="post-date">
+			<i class="icon-calendar"></i>17 Mar 2013
+		</span>
+		<span class="post-tags">
+			
+				<span><i class="icon-tags"></i>Niemeyer</span>
+			
+		</span>
+	</div>
+
+	<p>Before anything else, please allow me to put a little disclaimer.</p>
+
+<p>The further description is neither exhaustive nor definitive. This is a plan, not a HD picture. Since I want and need to develop this project in an iterative manner, to test my early assumptions and advance with more confidence, it is highly probable it will change as the project evolve. Especially when it will be in its final form, where everything is automatised. but let&#8217;s not put the horses before the cart.</p>
+
+<p>I shall attempt to explain thouroughtly how I decided to articulate this app. to resume the basic idea:</p>
+
+<p>Take tweets about a movie and aggregate them, analyse them with a sentiment analysis algorithm, put them in a database, complete them with classic infos about them (poster, year, &#8230;) and finally dipslay the results to the audience. That&#8217;s it for the basic concept.</p>
+
+<p>I started imagining how i could make that work in a rails application. However, I was afraid of having a big thing of an app doing everything. That idea wasn&#8217;t attractive, for obvious reasons. While reading a post about AWS, everything clicked. I was to decompose everything and make each element work with others like the platform itself do.</p>
+
+<p>Photo of the general schema</p>
+
+<p>A true lightbulb moment. It allowed me a bit more freedom in the way i could envision and develop the app. Or AppS, I should say&#8230; It will be three diffent apps, each with a precise function. Here they are:</p>
+
+<h2 id='the_dashboard'>The Dashboard</h2>
+
+<p>This is the back office of the project. I will allow me to manage the movie and their tweets, the database of tweets to be analysed, and in the future, to monitor various statistics and states.</p>
+
+<p>Basically, I poll the Twitter Search API to obtain the tweet given a movie title, put all of them in a hash, and store the Title/Hash pair in a mongo document.</p>
+
+<p>Why did I chose Mongoid? For the ease of development, while I figure all the details of the implement. It&#8217;s more than probable that once i will have everything figured and the project running smoothly, I will convert to a traditional SQL db (most likely Postgresql).</p>
+
+<h2 id='the_analysis'>The Analysis</h2>
+
+<p>I will explain more about this part in a future post, discussing the different possible algorithms, which one i choose and maybe the various heuristics to tune it.</p>
+
+<p>For now, know that the analysis part will take the movie objects (the pairs), iterate over the hash of tweets. It will then take the results and put them in a second db, this time a SQL db from the start, and complete them with classic info for movies, like the poster, the date of release, etc &#8230; This will allow for the third part to enter.</p>
+
+<h2 id='the_frontsite'>The FrontSite</h2>
+
+<p>This will be the part that the end user will use and interact with. I want this part to be static, because minimal interaction is needed for the user, after, she will only <em>consume</em> data, not have any effect on it.</p>
+
+<p>It is still a bit unclear at the moment i&#8217;m writing how i will achieve this part, since i&#8217;m not there yet.</p>
+
+<h2 id='conclusion'>Conclusion</h2>
+
+<p>So this is the plan for the first version of the concept. I will most certainly write a second iteration once the project is mature and automatic enough. I think it will be interesting to compare the two versions.</p>
+
+</article>
+
+<aside>
+  <div class="presentation">
+    <a href="/">
+      <img src="/images/space_craft.png" alt="logo" id="space" title="Where no man has gone before">
+      <h1>Paul McFreely</h1>
+    </a>
+    <p> You can follow me on
+      <a href="http://twitter.com/PaulRMCfreely">twitter</a>,
+      see my code on
+      <a href="https://github.com/McFreely">github</a>,
+      or just shoot me an
+      <a href="mailto:paulmcfreely@gmail.com">email</a>.
+    </p>
+  </div>
+
+  <menu>
+    <a href="/">Blog</a>
+    <a href="/projects.html">Work</a>
+    <a href="/about.html">A Propos</a>
+  </menu>
+</aside>
+
+

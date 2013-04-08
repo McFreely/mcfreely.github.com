@@ -30,7 +30,7 @@ So, the idea is to take tweets about a movie, aggregate them, analyse them with 
 
 I want to ultimately streamline everything and make it entirely automatic if possible. I'm not there yet.
 
-I am currently working on the MVP (link), after many nights of pondering of how to do it. I decided that if I continued to ponder on various little details, it will never be done. So yes, it is rudimentary at the moment. It's mostly a proof of concept.
+I am currently working on the MVP, after many nights of pondering of how to do it. I decided that if I continued to ponder on various little details, it will never be done. So yes, it is rudimentary at the moment. It's mostly a proof of concept.
 You can check the advancement on github, everything starting with "RDC".
 
 Sorry if this is not really a technical post, but it's more suited here.
