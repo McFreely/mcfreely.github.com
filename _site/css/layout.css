@@ -390,13 +390,17 @@ article a {
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media (max-width: 479px) {
-		article{
+	        #space {display: none;}
+                article{
 			margin:0px;
 			padding:15px;
 		}
 		aside {
 			width:100%;
 		}
+                aside > .presentation {
+                  padding-top: 15px;
+                }
 		menu a, menu a:link, menu a:visited {
                         font-size:1.2em;
 			display: inline;
