@@ -5,17 +5,20 @@ title: Archives
 <article>
   <div class="essay">
     <h2>:: Blog</h2>
-
-    <ul class='posts'>
+    <table class='posts'>
       {% for post in site.categories.essay %}
-      <li>
-        <p class="blog_menu_date">
-          {{ post.date || date_to_string }} :
-        </p>
-        <a href="{{ post.url }}">
-          <h3>  {{ post.title }}</h3>
-        </a>
-      </li>
+      <tr>
+        <td>
+          <p class="blog_menu_date">
+            {{ post.date || date_to_string }}
+          </p>
+        </td>
+        <td>
+          <a href="{{ post.url }}">
+            <h3>  {{ post.title }}</h3>
+          </a>
+        </td>
+      </tr>
       {% endfor %}
-    </ul>
+    </table>
 </article>

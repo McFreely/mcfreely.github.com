@@ -187,7 +187,7 @@ menu a:hover {
 }
 
 .posts li h3 {display: inline;}
-.blog_menu_date {display: inline; font-size: 1.3em; color: rgb(143, 150, 180);}
+.blog_menu_date {display: inline; font-size: 1.3em; color: rgb(143, 150, 180); padding-right: 20px;}
 
 article {
 	max-width: 850px;
