@@ -1,6 +1,6 @@
 ---
 layout: post
-title: République Démocratique du Cinéma
+title: RDC - République Démocratique du Cinéma
 category: essay
 image: /images/banners/liberte.jpg
 alt: Liberté guidant le peuple

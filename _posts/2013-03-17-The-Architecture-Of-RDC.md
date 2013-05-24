@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Architecture of RDC
+title: RDC - The Architecture
 category: essay
 image: /images/banners/hallway.jpg
 alt: Inception hallway scene
