@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Architecture of RDC
-category: technical
+category: essay
 image: /images/banners/hallway.jpg
 alt: Inception hallway scene
 tags: Niemeyer

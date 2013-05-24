@@ -1,9 +1,9 @@
 ---
 layout: post
 title: République Démocratique du Cinéma
-category: technical
+category: essay
 image: /images/banners/liberte.jpg
-alt: Liberté guidant le peuple 
+alt: Liberté guidant le peuple
 tags: Révolution
 ---
 
