@@ -32,7 +32,13 @@ a {
   float: right;
   padding: 10px 15px;
   margin: 5px 0 0 15px;
-  color: white;
+  color: #ececec;
+}
+.topbar menu a h5.contact {
+  background-color: #ececec;
+  color: #171717;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 .topbar menu a h5.blog:hover {
   background-color: #33b1df;
@@ -41,10 +47,10 @@ a {
   background-color: #df334b;
 }
 .topbar menu a h5.about:hover {
-  background-color: #33df91;
+  background-color: #df9a33;
 }
 .topbar menu a h5.contact:hover {
-  background-color: #df9a33;
+  background-color: #33df91;
 }
 
 .index-body {

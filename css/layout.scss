@@ -1,6 +1,6 @@
 $topbar: #171717;
 $home-link: white;
-$menu: white;
+$menu: #ececec;
 $menu-red: #DF334B;
 $menu-blue: #33b1df;
 $menu-green: #33df91;
@@ -48,6 +48,8 @@ a {text-decoration: none;}
 		margin: 5px 0 0 15px;
 		color: $menu;
 
+		&.contact {background-color: $menu; color: $topbar; @include lato(300);}
+
 		&.blog:hover {
 			background-color: $menu-blue;
 		}
@@ -56,10 +58,10 @@ a {text-decoration: none;}
 			background-color: $menu-red;
 		}
 		&.about:hover {
-			background-color: $menu-green;
+			background-color: $menu-orange;
 		}
 		&.contact:hover {
-			background-color: $menu-orange;
+			background-color: $menu-green;
 		}
 	}
 }
