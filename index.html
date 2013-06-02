@@ -2,16 +2,16 @@
 layout: default
 title: Archives
 ---
-<article>
-  <div class="essay">
+<div class="row index-body">
+  <article class="large-11 large-offset-1 columns">
     <h2>:: Blog</h2>
     <table class='posts'>
       {% for post in site.categories.essay %}
       <tr>
         <td>
-          <p class="blog_menu_date">
+          <h5 class="blog_menu_date">
             {{ post.date || date_to_string }}
-          </p>
+          </h5>
         </td>
         <td>
           <a href="{{ post.url }}">
@@ -21,4 +21,5 @@ title: Archives
       </tr>
       {% endfor %}
     </table>
-</article>
+  </article>
+</div>

@@ -1,3 +1,69 @@
-body {
-	background-color: pink;
+$topbar: #171717;
+$home-link: white;
+$menu: white;
+$menu-red: #DF334B;
+$menu-blue: #33b1df;
+$menu-green: #33df91;
+$menu-orange: #df9a33;
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
+
+@mixin lato($weight) {
+	font-family: 'Lato', sans-serif;
+	font-weight: $weight;
+}
+
+@mixin fadein {
+	-webkit-transition: background 0.4s ease-in-out;
+	-moz-transition: background 0.4s ease-in-out;
+	-ms-transition: background 0.4s ease-in-out;
+	-o-transition: background 0.4s ease-in-out;
+	transition: background 0.4s ease-in-out;
+}
+
+a {text-decoration: none;}
+
+.topbar {
+	background-color: $topbar;
+	img {
+		float: left;
+		height: 90px;
+		width: 90px;
+		clear: right;
+		margin-right: 15px;
+	}
+
+	.home-link h2 {
+		@include lato(100);
+		color: $home-link;
+		padding-top: 20px; padding-bottom: 10px;
+	}
+
+	menu a h5 {
+		@include lato(100);
+		@include fadein;
+		float: right;
+		padding: 10px 15px;
+		margin: 5px 0 0 15px;
+		color: $menu;
+
+		&.blog:hover {
+			background-color: $menu-blue;
+		}
+
+		&.work:hover {
+			background-color: $menu-red;
+		}
+		&.about:hover {
+			background-color: $menu-green;
+		}
+		&.contact:hover {
+			background-color: $menu-orange;
+		}
+	}
+}
+
+.index-body {
+	padding-top: 50px;
 }

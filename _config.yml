@@ -3,3 +3,6 @@ pygments:    true
 permalink:   date
 main_title:  "Paul McFreely's Thoughts"
 description: "I have a few ideas and here they are"
+sass:
+  syntax: scss
+  style: expanded

@@ -9,45 +9,46 @@
   <meta name="author" content="Paul McFreely">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/grid.css">
+  <link rel="stylesheet" href="/css/typeplate.css">
+  <link rel="stylesheet" href="/css/layout.css">
+
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 <body>
 
-<aside>
-  <div class="presentation">
-    <a href="/">
-      <img src="/images/space_craft.png" alt="logo" id="space" title="Where no man has gone before">
-      <h1>Paul McFreely</h1>
-    </a>
-    <p> You can follow me on
-      <a href="http://twitter.com/PaulRMCfreely">twitter</a>,
-      see my code on
-      <a href="https://github.com/McFreely">github</a>,
-      or just shoot me an
-      <a href="mailto:paulmcfreely@gmail.com">email</a>.
-    </p>
-  </div>
+<section class="topbar">
+  <section class="row ">
+    <div class="large-5 columns home-link">
+      <!-- <img src="/images/logo.jpg"> -->
+      <a href="/">
+        <img src="/images/logo.jpg">
+        <h2>Paul McFreely</h2>
+      </a>
+    </div>
 
-  <menu>
-    <a href="/">Blog</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/about.html">About Me</a>
-  </menu>
-</aside>
+    <menu class="large-5 large-offset-2 columns menu">
+      <a href="/about.html"><h5 class="delta contact">Contact</h5></a>
+      <a href="/about.html"><h5 class="delta about">About</h5></a>
+      <a href="/projects.html"><h5 class="delta work">Work</h5></a>
+      <a href="/"><h5 class="delta blog">Blog</h5></a>
+    </menu>
+  </section>
+</section>
 
-
-<article>
-  <div class="essay">
+<div class="row index-body">
+  <article class="large-11 large-offset-1 columns">
     <h2>:: Blog</h2>
     <table class='posts'>
       
       <tr>
         <td>
-          <p class="blog_menu_date">
+          <h5 class="blog_menu_date">
             22 Mar 2013
-          </p>
+          </h5>
         </td>
         <td>
           <a href="/essay/2013/03/22/self-limitations-in-creation.html">
@@ -58,9 +59,9 @@
       
       <tr>
         <td>
-          <p class="blog_menu_date">
+          <h5 class="blog_menu_date">
             17 Mar 2013
-          </p>
+          </h5>
         </td>
         <td>
           <a href="/essay/2013/03/17/The-Architecture-Of-RDC.html">
@@ -71,9 +72,9 @@
       
       <tr>
         <td>
-          <p class="blog_menu_date">
+          <h5 class="blog_menu_date">
             14 Mar 2013
-          </p>
+          </h5>
         </td>
         <td>
           <a href="/essay/2013/03/14/Exploration-of-Social-Networks.html">
@@ -84,9 +85,9 @@
       
       <tr>
         <td>
-          <p class="blog_menu_date">
+          <h5 class="blog_menu_date">
             10 Mar 2013
-          </p>
+          </h5>
         </td>
         <td>
           <a href="/essay/2013/03/10/Republique-Democratique-du-Cinema.html">
@@ -97,9 +98,9 @@
       
       <tr>
         <td>
-          <p class="blog_menu_date">
+          <h5 class="blog_menu_date">
             28 Feb 2013
-          </p>
+          </h5>
         </td>
         <td>
           <a href="/essay/2013/02/28/post-mortem-of-a-colourful-network.html">
@@ -110,9 +111,9 @@
       
       <tr>
         <td>
-          <p class="blog_menu_date">
+          <h5 class="blog_menu_date">
             09 Dec 2012
-          </p>
+          </h5>
         </td>
         <td>
           <a href="/essay/2012/12/09/The-Time-Machine.html">
@@ -123,9 +124,9 @@
       
       <tr>
         <td>
-          <p class="blog_menu_date">
+          <h5 class="blog_menu_date">
             14 Oct 2012
-          </p>
+          </h5>
         </td>
         <td>
           <a href="/essay/2012/10/14/extreme-gamification.html">
@@ -135,23 +136,8 @@
       </tr>
       
     </table>
-</article>
+  </article>
+</div>
 
 
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36935538-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-</body>
-</html>
 

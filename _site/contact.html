@@ -9,34 +9,35 @@
   <meta name="author" content="Paul McFreely">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/grid.css">
+  <link rel="stylesheet" href="/css/typeplate.css">
+  <link rel="stylesheet" href="/css/layout.css">
+
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 <body>
 
-<aside>
-  <div class="presentation">
-    <a href="/">
-      <img src="/images/space_craft.png" alt="logo" id="space" title="Where no man has gone before">
-      <h1>Paul McFreely</h1>
-    </a>
-    <p> You can follow me on
-      <a href="http://twitter.com/PaulRMCfreely">twitter</a>,
-      see my code on
-      <a href="https://github.com/McFreely">github</a>,
-      or just shoot me an
-      <a href="mailto:paulmcfreely@gmail.com">email</a>.
-    </p>
-  </div>
+<section class="topbar">
+  <section class="row ">
+    <div class="large-5 columns home-link">
+      <!-- <img src="/images/logo.jpg"> -->
+      <a href="/">
+        <img src="/images/logo.jpg">
+        <h2>Paul McFreely</h2>
+      </a>
+    </div>
 
-  <menu>
-    <a href="/">Blog</a>
-    <a href="/projects.html">Projects</a>
-    <a href="/about.html">About Me</a>
-  </menu>
-</aside>
-
+    <menu class="large-5 large-offset-2 columns menu">
+      <a href="/about.html"><h5 class="delta contact">Contact</h5></a>
+      <a href="/about.html"><h5 class="delta about">About</h5></a>
+      <a href="/projects.html"><h5 class="delta work">Work</h5></a>
+      <a href="/"><h5 class="delta blog">Blog</h5></a>
+    </menu>
+  </section>
+</section>
 
 <h1>Where you can find me</h1>
 <div class="five columns logo">
@@ -61,19 +62,4 @@
 </div>
 
 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36935538-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-</body>
-</html>
 
