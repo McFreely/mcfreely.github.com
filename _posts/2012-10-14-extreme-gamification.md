@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Extreme Gamification
-category: essay
 description: What could happen if gamification was in every facet of our lives is quite disconcerting...
 image: /images/banners/badges.jpg
 alt: a collection of badges
+category: Essay
+status: Draft n°1
 tags:
 - Distractions
 ---
@@ -18,7 +19,7 @@ A classic business application is boring and no one is excited to work with it. 
 Something even more surprising appears : people put themselves in competition for something they wouldn't have in a million year if presented explicitely.
 
 
-## The addiction
+### The addiction
 
 Foursquare paved the way of a dangerous path. More and more apps were created with aspects of gamification. The majority of the time on top of an existing model (Todo lists, collaborative work, etc...), sometimes as the core principle of the app.
 The most famous example being Fitocracy. Gain points while exercising. Pretty simple, ultra competitive.
@@ -31,7 +32,7 @@ In Fitocracy, for each set of exercises you log, you gain point. Straitforward. 
 Each Time you win a point, a part of your brain create a little bit of dopamine. This is the "feel-good" hormone. This is call the reward system. Each time you do something pleasurable, you feel good. Sadly, or fortunately, most of the mechanisms in those apps are not completely calibrated in an optimal way to influence this system. They just blindly add a generic layer on top of something else. I would guess that even Fitocracy is designed this way.
 
 
-## The Escalation
+### The Escalation
 
 I had planned, when drafting this post, to try to design the framework of an optimal game mechanism, in term of addiction. I was a bit scared of the repercusions of such a system. And then it hit me. This system already exist.
 
@@ -39,7 +40,7 @@ I had planned, when drafting this post, to try to design the framework of an opt
 Zynga. Social games titan. Their most famous game, Farmville, is the example of a perfect game mechanism intended to create an addiction. Normally, a game were you cultivate and manage a farm wouldn't be that popular. Thanks to a few creative and addictive mechanisms, people spend hundreds of hours playing. and paying.
 
 
-## The Utopia
+### The Utopia
 When you start to think about the idea of game mechanics, you realize that you could implement it in almost every aspects of life, thanks to modern technology.
 Gain point for losing weight, the electronic scale does everything itself. Same thing for brushing your teeth, or watching tv. "Congratulation, you won the 'persistent' bages for watching four consecutives hours of tv."
 

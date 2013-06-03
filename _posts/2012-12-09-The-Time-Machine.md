@@ -1,9 +1,10 @@
 ---
 layout: post
 title: The Time Machine
-category: essay
+category: Essay
 description: Let's go travel to the limits of time !
 image: /images/banners/tardis.jpg
+status: Final Draft
 tags:
 - Travel
 ---

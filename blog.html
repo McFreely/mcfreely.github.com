@@ -2,20 +2,23 @@
 layout: default
 title: Archives
 ---
-<div class="row index-body">
-  <article class="large-12 columns">
+<div class="row">
+  <article class="large-12 columns posts-list">
     <h2>:: Blog</h2>
-    <table class='posts-list'>
-      {% for post in site.categories.essay %}
+    <table class=''>
+      {% for post in site.posts %}
       <tr>
         <td>
-          <h5 class="blog_menu_date zeta">
+          <h6>
             {{ post.date || date_to_string }}
-          </h5>
+          </h6>
         </td>
         <td>
-          <a href="{{ post.url }}">
-            <h5>  {{ post.title }}</h3>
+          <h5>{{post.category}}</h5>
+        </td>
+        <td>
+          <a href="{{ post.url }}" class="posts-link">
+            <h4>  {{ post.title }}</h4>
           </a>
         </td>
       </tr>

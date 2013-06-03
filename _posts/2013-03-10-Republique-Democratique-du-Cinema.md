@@ -1,13 +1,11 @@
 ---
 layout: post
 title: RDC - République Démocratique du Cinéma
-category: essay
 image: /images/banners/liberte.jpg
 alt: Liberté guidant le peuple
+category: Technical
 status: Draft n°2
-confidence: Good
 tags: Révolution
-share: link
 ---
 
 My new project. A really democratic movie review website. How does one achieve this? Why, with sentiment analysis of tweets. This is the first post in a long series, an introduction if you will.

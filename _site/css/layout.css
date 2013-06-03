@@ -58,6 +58,38 @@ body {
   background-color: #33df91;
 }
 
+.posts-list h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.posts-list td {
+  padding: 10px 20px 10px 0;
+}
+.posts-list td h4, .posts-list td h5, .posts-list td h6 {
+  margin: 0;
+}
+.posts-list td h5, .posts-list td h6 {
+  color: #171717;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+.posts-list td .posts-link {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #171717;
+}
+.posts-list td .posts-link h4 {
+  -webkit-transition: color 0.4s ease-in-out;
+  -moz-transition: color 0.4s ease-in-out;
+  -ms-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+  color: #171717;
+}
+.posts-list td .posts-link h4:hover {
+  color: #33b1df;
+}
+
 .blog-post .title {
   font-family: 'Lato', sans-serif;
   font-weight: 100;

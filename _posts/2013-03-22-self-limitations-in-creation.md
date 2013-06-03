@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Self-Limitations in Creation
-category: essay
 description: One owe himself to explore more thouroughly i-his ides before discarding them.
 image: /images/banners/brain.jpg
 alt: brainstorming cartoon
+category: Essay
+status: Draft n°2
 tags:
 - The void
 ---
@@ -25,7 +26,7 @@ When starting to develop this habit, I made a terrible mistake. The process went
 I wanted to be efficient in the selection of my ideas. Efficiency came maily through speed. I was naïve.
 It took some time, but i realized that one should not put any kind of premature limitations on what one want to create. Especially if the limitation or reason to put aside something is "it already exist".
 
-## Nothing is forever
+### Nothing is forever
 
 So let's say that Jim wants to create a foobar app. It seems cool, you can put fizz alongside your buzz. Jim is exited to finally have a worthwhile idea.
 Jim do a quick read through search result about foobar. His heart stop for a second. Yeah! inc. ealready have a similar product. Ad with millions of users on top of that.
@@ -38,7 +39,7 @@ Instantly, a new need arised. A lot of people are now desperate for a good alter
 
 Just because it already exist doesn't mean you can't create something sustainable, which bring my second point.
 
-## Perfection is an illusion
+### Perfection is an illusion
 
 A product is never perfect. A major, established product doesn't mean it is perfect or even complete. It can"t satisfy the need of every possible users or customers. It might even be highly flawed, being the only available choice. If it is the only player in a field, by not having to compete heavily, the product might not be the fittest (in an evolutionary sense).
 
