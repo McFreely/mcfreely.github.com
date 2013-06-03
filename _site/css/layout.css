@@ -2,17 +2,22 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
 a {
   text-decoration: none;
+  color: #33b1df;
+}
+
+body {
+  background-color: #ececec;
 }
 
 .topbar {
   background-color: #171717;
+  margin-bottom: 50px;
 }
 .topbar img {
   float: left;
   height: 90px;
   width: 90px;
-  clear: right;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 .topbar .home-link h2 {
   font-family: 'Lato', sans-serif;
@@ -53,6 +58,38 @@ a {
   background-color: #33df91;
 }
 
-.index-body {
-  padding-top: 50px;
+.blog-post .title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  color: #33b1df;
+}
+.blog-post .sub-title {
+  margin-top: 5px;
+  padding: 5px 0;
+}
+.blog-post .sub-title span {
+  color: #33b1df;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+.blog-post .sub-title span i {
+  padding-right: 10px;
+}
+.blog-post h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  text-align: left;
+  margin-top: 20px;
+}
+.blog-post p {
+  padding-bottom: 10px;
+}
+.blog-post .social-links {
+  margin: 0;
+}
+
+.comments {
+  margin-top: 50px;
 }

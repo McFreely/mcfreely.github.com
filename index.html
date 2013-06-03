@@ -3,23 +3,7 @@ layout: default
 title: Archives
 ---
 <div class="row index-body">
-  <article class="large-11 large-offset-1 columns">
-    <h2>:: Blog</h2>
-    <table class='posts'>
-      {% for post in site.categories.essay %}
-      <tr>
-        <td>
-          <h5 class="blog_menu_date">
-            {{ post.date || date_to_string }}
-          </h5>
-        </td>
-        <td>
-          <a href="{{ post.url }}">
-            <h3>  {{ post.title }}</h3>
-          </a>
-        </td>
-      </tr>
-      {% endfor %}
-    </table>
+  <article class="large-12 columns">
+    <h2>:: Index</h2>
   </article>
 </div>

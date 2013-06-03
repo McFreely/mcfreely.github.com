@@ -21,6 +21,7 @@ When starting to develop this habit, I made a terrible mistake. The process went
 		3. Few days later, look if it has already been done
 		4. If yes, discard it
 
+
 I wanted to be efficient in the selection of my ideas. Efficiency came maily through speed. I was naïve.
 It took some time, but i realized that one should not put any kind of premature limitations on what one want to create. Especially if the limitation or reason to put aside something is "it already exist".
 
@@ -31,8 +32,10 @@ Jim do a quick read through search result about foobar. His heart stop for a sec
 So jim decide to discard his idea, a weird taste in his mouth, feeling disapointed to not have thought it earlier. He promise himself to be quicker next time.
 
 What's wrong with Jim's behaviour (and mine a few years ago) is to assume that the existing product will be forever, leaving no place for his. Recent events demonstrated that no one can assume a such line of thinking.
-? Google Reader was firmly established, the rss users favorite app, with almost 25M users. Even though , Google decided to end it. I will not discuss the Whys or Hows. It's a simple example to show that the Rss feed-reader market was closed for someone like Jim.
+? Google Reader was firmly established, the rss users favorite app, with almost 25M users. Even though, Google decided to end it. I will not discuss the Whys or Hows. It's a simple example to show that the Rss feed-reader market was closed for someone like Jim.
+
 Instantly, a new need arised. A lot of people are now desperate for a good alternative. A bunch of people are working like crazy to fill the void left by the sudden gap. And a few smart people already have a product to show, working on it for a few months or years.
+
 Just because it already exist doesn't mean you can't create something sustainable, which bring my second point.
 
 ## Perfection is an illusion
@@ -41,5 +44,5 @@ A product is never perfect. A major, established product doesn't mean it is perf
 
 You should be on the watch for such opportunities. When you do the first research on a product idea, do it thouroughly. Analyse the existing products. What they do exactly, the complete feature sets. What they might lack. What some users might desesprately want that the developpers never did. You hsould spend at least a few hours on it. I know I should spend more time on it.
 
-Don't fall in "statu quo" thinking.
+Don't fall into "statu quo" thinking.
 

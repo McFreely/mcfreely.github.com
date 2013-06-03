@@ -14,6 +14,11 @@ $menu-orange: #df9a33;
 	font-weight: $weight;
 }
 
+@mixin raleway($weight) {
+	font-family: 'Raleway', sans-serif;
+	font-weight: $weight;
+}
+
 @mixin fadein {
 	-webkit-transition: background 0.4s ease-in-out;
 	-moz-transition: background 0.4s ease-in-out;
@@ -22,16 +27,21 @@ $menu-orange: #df9a33;
 	transition: background 0.4s ease-in-out;
 }
 
-a {text-decoration: none;}
+a {text-decoration: none; color: $menu-blue;}
+
+body {
+	@extend %breakword;
+	background-color: $menu;
+}
 
 .topbar {
 	background-color: $topbar;
+	margin-bottom: 50px;
 	img {
 		float: left;
 		height: 90px;
 		width: 90px;
-		clear: right;
-		margin-right: 15px;
+		margin-right: 5px;
 	}
 
 	.home-link h2 {
@@ -66,6 +76,53 @@ a {text-decoration: none;}
 	}
 }
 
-.index-body {
-	padding-top: 50px;
+// .index-body {
+
+// }
+
+// .posts-list {
+// 	td {
+// 		border: solid 1px black;
+// 		padding-right: 15px;
+// 	}
+// }
+
+.blog-post {
+	.title {
+		@include lato(100);
+		text-align: center;
+		color: $menu-blue;
+	}
+	.sub-title {
+		// border-bottom: solid 1px $menu-blue;
+		// border-top: solid 1px $menu-blue;
+		margin-top: 5px;
+		padding: 5px 0;
+		span {
+			color: $menu-blue;
+			text-align: center;
+			@include raleway(200);
+			i {
+				padding-right: 10px;
+			}
+		}
+	}
+
+	h3 {
+		@include raleway(200);
+		text-align: left;
+		margin-top: 20px;
+
+	}
+	p {
+		padding-bottom: 10px;
+	}
+
+	.social-links {
+		margin: 0;
+	}
+}
+
+.comments {
+	margin-top: 50px;
 }

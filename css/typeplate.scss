@@ -452,14 +452,14 @@ h6 {
 // $Parargraphs
 // -------------------------------------//
 
-p {
-	margin: 0 0 $indent-val;
-	& + p {
-		//siblings indentation
-		text-indent: $indent-val;
-		margin-top: -$indent-val;
-	}
-}
+// p {
+// 	margin: 0 0 $indent-val;
+// 	// & + p {
+// 	// 	//siblings indentation
+// 	// 	text-indent: $indent-val;
+// 	// 	margin-top: -$indent-val;
+// 	// }
+// }
 
 
 // $Hyphenation
