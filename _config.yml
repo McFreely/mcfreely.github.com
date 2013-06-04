@@ -1,4 +1,4 @@
-server_port: 4000
+port: 4000
 pygments:    true
 permalink:   date
 main_title:  "Paul McFreely's Thoughts"
