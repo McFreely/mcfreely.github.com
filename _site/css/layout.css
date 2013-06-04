@@ -1,17 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
+body {
+  background-color: #ececec;
+}
+
 a {
   text-decoration: none;
   color: #33b1df;
 }
 
-body {
-  background-color: #ececec;
-}
-
 .topbar {
   background-color: #171717;
-  margin-bottom: 50px;
 }
 .topbar img {
   float: left;
@@ -58,6 +57,39 @@ body {
   background-color: #33df91;
 }
 
+.container-splash {
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+.container-splash .circular {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: solid 6px #171717;
+  margin-bottom: 20px;
+}
+.container-splash h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #171717;
+}
+.container-splash h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #171717;
+}
+
+.container-blog {
+  padding: 50px 0 20px 0;
+  margin-bottom: 30px;
+  background-color: #33b1df;
+}
+.container-blog h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #ececec;
+}
+
 .posts-list h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -90,6 +122,9 @@ body {
   color: #33b1df;
 }
 
+.blog-post {
+  padding-top: 30px;
+}
 .blog-post .title {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
@@ -124,4 +159,67 @@ body {
 
 .comments {
   margin-top: 50px;
+}
+
+.container-title {
+  padding: 50px 0 20px 0;
+  margin-bottom: 30px;
+  background-color: #df334b;
+}
+.container-title h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #ececec;
+}
+
+.container-rdc, .container-more {
+  padding: 50px 0;
+  text-align: center;
+}
+.container-rdc h2, .container-more h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  padding-top: 25px;
+}
+.container-rdc a, .container-rdc p, .container-more a, .container-more p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.container-rdc a, .container-more a {
+  color: #df334b;
+}
+.container-rdc p, .container-more p {
+  font-size: 20px;
+}
+
+.container-ml {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #dfdfdf;
+}
+.container-ml h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  padding-top: 25px;
+}
+.container-ml a, .container-ml p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.container-ml a {
+  color: #df334b;
+}
+.container-ml p {
+  font-size: 20px;
+}
+
+.container-about {
+  padding: 50px 0 20px 0;
+  margin-bottom: 30px;
+  background-color: #df9a33;
+}
+.container-about h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #ececec;
 }

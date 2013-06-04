@@ -1,3 +1,6 @@
+////////////
+// Variables
+
 $topbar: #171717;
 $home-link: white;
 $menu: #ececec;
@@ -6,19 +9,26 @@ $menu-blue: #33b1df;
 $menu-green: #33df91;
 $menu-orange: #df9a33;
 
+//////////
+// Imports
+
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
 
+/////////
+// Mixins
+
+// Font mixins
 @mixin lato($weight) {
 	font-family: 'Lato', sans-serif;
 	font-weight: $weight;
 }
-
 @mixin raleway($weight) {
 	font-family: 'Raleway', sans-serif;
 	font-weight: $weight;
 }
 
+// Transitions mixins
 @mixin fadein($propriety) {
 	-webkit-transition: $propriety 0.4s ease-in-out;
 	-moz-transition: $propriety 0.4s ease-in-out;
@@ -27,16 +37,50 @@ $menu-orange: #df9a33;
 	transition: $propriety 0.4s ease-in-out;
 }
 
-a {text-decoration: none; color: $menu-blue;}
+// Mixins for the page title container
+@mixin container-title($color) {
+	padding: 50px 0 20px 0;
+	margin-bottom: 30px;
+	background-color: $color;
+	h2{
+		@include lato(100);
+		color: $menu;
+	}
+}
+
+// Mixins for the work page containers
+@mixin container-light {
+	padding: 50px 0;
+	text-align: center;
+	h2 {
+		@include lato(100);
+		padding-top: 25px;
+	}
+	a,p {@include lato(300);}
+	a {color: $menu-red;}
+	p {font-size: 20px;}
+}
+
+@mixin container-dark {
+	@include container-light;
+	background-color: darken($menu, 5%);
+}
+
+
+///////////////////
+// General Layout Code
 
 body {
 	@extend %breakword;
 	background-color: $menu;
 }
 
+a {text-decoration: none; color: $menu-blue;}
+
+///////////
+// Menu Bar
 .topbar {
 	background-color: $topbar;
-	margin-bottom: 50px;
 	img {
 		float: left;
 		height: 90px;
@@ -66,9 +110,30 @@ body {
 	}
 }
 
-// .index-body {
+//////////////
+// Index Page
+.container-splash {
+	text-align: center;
+	// background-color: $menu;
+	padding: 50px 0 20px 0;
 
-// }
+	.circular {
+		width: 200px; height: 200px;
+		border-radius: 100px;
+		border: solid 6px $topbar;
+		margin-bottom: 20px;
+	}
+
+	h3 {@include lato(300); color: $topbar;}
+	h4 {@include lato(300); color: $topbar;}
+}
+
+
+////////////////////////////////////
+// Blog Posts and Posts List Layouts
+.container-blog {
+	@include container-title($menu-blue);
+}
 
 .posts-list {
 	h2 {@include lato(300);}
@@ -92,6 +157,7 @@ body {
 }
 
 .blog-post {
+	padding-top: 30px;
 	.title {
 		@include lato(100);
 		text-align: center;
@@ -128,3 +194,19 @@ body {
 .comments {
 	margin-top: 50px;
 }
+
+////////////
+// Work Page
+.container-title {@include container-title($menu-red);}
+.container-rdc, .container-more {@include container-light;}
+.container-ml {@include container-dark;}
+
+/////////////
+// About Page
+
+.container-about {@include container-title($menu-orange);}
+
+
+
+
+
