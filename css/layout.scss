@@ -3,7 +3,7 @@
 
 $topbar: #171717;
 $home-link: white;
-$menu: #ececec;
+$menu: #f5f5f5;
 $menu-red: #DF334B;
 $menu-blue: #33b1df;
 $menu-green: #33df91;
@@ -71,11 +71,17 @@ $menu-orange: #df9a33;
 // General Layout Code
 
 body {
-	@extend %breakword;
+	@extend %breakword !optional;
 	background-color: $menu;
 }
 
-a {text-decoration: none; color: $menu-blue;}
+a {
+	text-decoration: none;
+	color: $menu-blue;
+	@include fadein(color);
+
+	&:hover {color: darken($menu-blue, 12%);}
+}
 
 ///////////
 // Menu Bar
@@ -126,6 +132,30 @@ a {text-decoration: none; color: $menu-blue;}
 
 	h3 {@include lato(300); color: $topbar;}
 	h4 {@include lato(300); color: $topbar;}
+}
+
+.container-example {
+	@include container-dark;
+	@include lato(400);
+
+	h3 {
+		@include lato(300);
+		padding-bottom: 30px;
+	}
+	h4 {
+		@include lato(300);
+		font-weight:bold;
+		padding-bottom: 15px;
+	}
+	.logo {padding-bottom: 10px;}
+}
+
+.container-blog-redux {
+	text-align:center;
+	padding-top: 30px;
+	h3 {@include lato(300); padding-bottom: 20px;}
+	h4 {@include lato(300); margin-bottom: 5px;}
+	p {margin-top: 0; margin-bottom: 40px; }
 }
 
 
@@ -205,7 +235,6 @@ a {text-decoration: none; color: $menu-blue;}
 // About Page
 
 .container-about {@include container-title($menu-orange);}
-
 
 
 

@@ -6,6 +6,7 @@ image: /images/banners/brain.jpg
 alt: brainstorming cartoon
 category: Essay
 status: Draft n°2
+summary: We sometimes put limitation on ourselves htat we ought not to.
 tags:
 - The void
 ---

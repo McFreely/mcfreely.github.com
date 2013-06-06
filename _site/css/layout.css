@@ -1,12 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
 body {
-  background-color: #ececec;
+  background-color: whitesmoke;
 }
 
 a {
   text-decoration: none;
   color: #33b1df;
+  -webkit-transition: color 0.4s ease-in-out;
+  -moz-transition: color 0.4s ease-in-out;
+  -ms-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+a:hover {
+  color: #1d8eb8;
 }
 
 .topbar {
@@ -36,10 +44,10 @@ a {
   float: right;
   padding: 10px 15px;
   margin: 5px 0 0 15px;
-  color: #ececec;
+  color: whitesmoke;
 }
 .topbar menu a h5.contact {
-  background-color: #ececec;
+  background-color: whitesmoke;
   color: #171717;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -79,6 +87,62 @@ a {
   color: #171717;
 }
 
+.container-example {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #e8e8e8;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+.container-example h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  padding-top: 25px;
+}
+.container-example a, .container-example p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.container-example a {
+  color: #df334b;
+}
+.container-example p {
+  font-size: 20px;
+}
+.container-example h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+.container-example h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.container-example .logo {
+  padding-bottom: 10px;
+}
+
+.container-blog-redux {
+  text-align: center;
+  padding-top: 30px;
+}
+.container-blog-redux h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+.container-blog-redux h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.container-blog-redux p {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
 .container-blog {
   padding: 50px 0 20px 0;
   margin-bottom: 30px;
@@ -87,7 +151,7 @@ a {
 .container-blog h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  color: #ececec;
+  color: whitesmoke;
 }
 
 .posts-list h2 {
@@ -169,7 +233,7 @@ a {
 .container-title h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  color: #ececec;
+  color: whitesmoke;
 }
 
 .container-rdc, .container-more {
@@ -195,7 +259,7 @@ a {
 .container-ml {
   padding: 50px 0;
   text-align: center;
-  background-color: #dfdfdf;
+  background-color: #e8e8e8;
 }
 .container-ml h2 {
   font-family: 'Lato', sans-serif;
@@ -221,5 +285,5 @@ a {
 .container-about h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  color: #ececec;
+  color: whitesmoke;
 }

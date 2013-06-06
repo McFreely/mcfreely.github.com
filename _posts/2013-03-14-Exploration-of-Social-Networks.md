@@ -5,6 +5,7 @@ image: /images/banners/network.png
 alt: brainstorming cartoon
 category: Essay
 status: Draft n°2
+summary: The first article in a series about the state of social networks in 2013.
 tags:
 - A Billion Dollars
 ---

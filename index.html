@@ -16,7 +16,47 @@ title: Archives
 		<div class="large-12 columns">
 			<img src="/images/photo_profil_class.jpg"  class="circular" />
 			<h3>I'm Paul McFreely & I'm a <b>Freelance Developper</b> from <b>France</b></h3>
-			<h4>I create Web and mobile <a href="/projects.htlm">Applications</a>, and sometimes I <a href='/blog.html'>write</a></h4>
+			<h4>I create Responsive Web <a href="/projects.htlm">Applications</a>, and I sometimes <a href='/blog.html'>write</a></h4>
+		</div>
+	</div>
+</div>
+
+<div class="container-example">
+	<div class="row">
+			<h3>Some of the things I do :</h3>
+	</div>
+	<div class="row">
+		<div class="large-4 columns example">
+			<h4>Web Apps</h4>
+			<img src='/images/responsive.png' class="logo">
+			<p>You need help with the creation or maintenance of your web application? 
+			</br>I can help you with that.</p>
+		</div>
+		<div class="large-4 columns example">
+			<h4>Prototypes</h4>
+			<img src='/images/prototype.png' class="logo">
+			<p>You have an idea for the next big thing(tm) but you're not sure if it can succeed?
+			</br>I can help you by creating a prototype in a few weeks and help you test your idea.</p>
+		</div>
+		<div class="large-4 columns example">
+			<h4>E-Commerce Websites</h4>
+			<img src='/images/store.png' class="logo">
+			<p>You've created a realy nice product or brand, but you're not sure about how to sell it online?
+			</br> I can help you with that.</p>
+		</div>
+	</div>
+</div>
+
+<div class="container-blog-redux">
+	<div class="row">
+		<div class="large-12 columns">
+			<h3>The latest from the blog</h3>
+			{% for post in site.posts limit:3 %}
+			    <h4>
+			    	<a href='{{post.url}}'>{{ post.title}}</a>
+			    </h4>
+			    <p>{{ post.summary }}</p>
+			{% endfor %}
 		</div>
 	</div>
 </div>

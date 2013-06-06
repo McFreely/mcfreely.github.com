@@ -5,6 +5,7 @@ category: Technical
 image: /images/banners/hallway.jpg
 alt: Inception hallway scene
 status: Draft n°1
+summary: A little bit more details about the architecture of the RDC project.
 tags: Niemeyer
 ---
 
