@@ -2,25 +2,60 @@
 layout: default
 title: McFreely | Contact
 ---
-
-<h1>Where you can find me</h1>
-<div class="five columns logo">
-	<a href="http://github.com/mcfreely">
-		<img src="/images/github.png" alt="" height="128px" width="128px">
-	</a>
-	<p>Github</p>
+<div class="container-contact">
+	<div class="row">
+		<div class="large-12 columns">
+			<h2>:: Hire Me !</h2>
+		</div>
+	</div>
 </div>
 
-<div class="five columns logo">
-	<a href="http://twitter.com/paulrmcfreely">
-		<img src="/images/twitter.png" alt="" height="128" width="128px">
-	</a>
-	<p>Twitter</p>
+<div class='container-contact-mail'>
+	<div class="row">
+		<div class='large-12 columns'>
+			<h3>You can send me an Email</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class='large-12 columns'>
+		<form action="http://getsimpleform.com/messages?form_api_token=<form_api_token>" method="post">
+
+        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+        <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+
+        <!-- all your input fields here.... -->
+        <input type='text' placeholder='Your name' name='name'/>
+        <input type='email' placeholder='Your email address' name='email'/></br>
+        <input type='text' placeholder='Subject of your message' class="subject" name='subject'/></br>
+        <textarea placeholder='Your message' name='message'/></textarea></br>
+        <input type='submit' value='Send !' />
+      </form>
+      </div>
+	</div>
 </div>
 
-<div class="five columns logo">
-	<a href="mailto:paulmcfreely@gmail.com">
-		<img src="/images/gmail.png" alt="" height="128px" width="128px">
-	</a>
-	<p>Mail</p>
+<div class="container-contact-social">
+<div class="row">
+	<h3>Or you can find me there</h3>
+	<div class="large-4 columns">
+		<a href="http://github.com/mcfreely">
+			<img src="/images/github.png" alt="" height="128px" width="128px">
+		</a>
+		<h6>Github</h6>
+	</div>
+
+	<div class="large-4 columns">
+		<a href="http://twitter.com/paulrmcfreely">
+			<img src="/images/twitter.png" alt="" height="128" width="128px">
+		</a>
+		<h6>Twitter</h6>
+	</div>
+
+    <div class="large-4 columns">
+		<a href="mailto:paulmcfreely@gmail.com">
+			<img src="/images/gmail.png" alt="" height="128px" width="128px">
+		</a>
+		<h6>Mail</h6>
+	</div>
+</div>
 </div>

@@ -237,5 +237,46 @@ a {
 .container-about {@include container-title($menu-orange);}
 
 
+///////////////
+// Contact Page
+input[type="text"],
+input[type="email"]
+{
+  background-color: white;
+  border: 1px solid #cccccc;
+  color: $topbar;
+  margin: 0 0 10px 0;
+  padding: 0.5em;
+  height: 2.3125em;
+  width: 298px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+input.subject {
+	width: 600px;
+}
+textarea {
+  background-color: white;
+  border: 1px solid #cccccc;
+  color: $topbar;
+  margin: 0 0 1em 0;
+  padding: 0.5em;
+  height: 150px;
+  width: 600px;
+}
 
+input[type="submit"] {
+	background-color: $menu-green;
+	border: none;
+	padding: 10px 32px;
+	@include fadein(background-color);
+
+	&:hover {
+		background-color: darken($menu-green, 7%);
+	}
+}
+
+.container-contact {@include container-title(darken($menu-green,5%));}
+.container-contact-mail  {margin-top: 75px; text-align: center; @include lato(100); }
+.container-contact-social {margin-top: 100px; text-align: center;}
 
