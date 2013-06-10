@@ -66,6 +66,12 @@ $menu-orange: #df9a33;
 	background-color: darken($menu, 5%);
 }
 
+@mixin link-hover($color) {
+	&:hover {
+		color: darken($color, 12%);
+	}
+}
+
 
 ///////////////////
 // General Layout Code
@@ -228,8 +234,18 @@ a {
 ////////////
 // Work Page
 .container-title {@include container-title($menu-red);}
-.container-rdc, .container-more {@include container-light;}
-.container-ml {@include container-dark;}
+.container-rdc, .container-more {
+	@include container-light;
+	a {
+		@include fadein(color);
+		@include link-hover($menu-red);}
+	}
+.container-ml {
+	@include container-dark;
+	a {
+		@include fadein(color);
+		@include link-hover($menu-red);}
+}
 
 /////////////
 // About Page
@@ -277,6 +293,6 @@ input[type="submit"] {
 }
 
 .container-contact {@include container-title(darken($menu-green,5%));}
-.container-contact-mail  {margin-top: 75px; text-align: center; @include lato(100); }
+.container-contact-mail  {margin-top: 75px; text-align: center; @include lato(100);}
 .container-contact-social {margin-top: 100px; text-align: center;}
 
