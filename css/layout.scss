@@ -1,17 +1,14 @@
 ////////////
 // Variables
-
-$topbar: #171717;
-$home-link: white;
-$menu: #f5f5f5;
-$menu-red: #DF334B;
-$menu-blue: #33b1df;
-$menu-green: #33df91;
-$menu-orange: #df9a33;
+$black: #171717;
+$background: #f5f5f5;
+$red: #DF334B;
+$blue: #33b1df;
+$green: #18c474;
+$orange: #df9a33;
 
 //////////
 // Imports
-
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
 
@@ -44,7 +41,7 @@ $menu-orange: #df9a33;
 	background-color: $color;
 	h2{
 		@include lato(300);
-		color: $menu;
+		color: $background;
 	}
 }
 
@@ -57,13 +54,13 @@ $menu-orange: #df9a33;
 		padding-top: 25px;
 	}
 	a,p {@include lato(300);}
-	a {color: $menu-red;}
+	a {color: $red;}
 	p {font-size: 20px;}
 }
 
 @mixin container-dark {
 	@include container-light;
-	background-color: darken($menu, 5%);
+	background-color: darken($background, 5%);
 }
 
 @mixin link-hover($color) {
@@ -78,21 +75,21 @@ $menu-orange: #df9a33;
 
 body {
 	@extend %breakword !optional;
-	background-color: $menu;
+	background-color: $background;
 }
 
 a {
 	text-decoration: none;
-	color: $menu-blue;
+	color: $blue;
 	@include fadein(color);
 
-	&:hover {color: darken($menu-blue, 12%);}
+	&:hover {color: darken($blue, 12%);}
 }
 
 ///////////
 // Menu Bar
 .topbar {
-	background-color: $topbar;
+	background-color: $black;
 	img {
 		float: left;
 		height: 90px;
@@ -102,7 +99,7 @@ a {
 
 	.home-link h2 {
 		@include lato(300);
-		color: $menu;
+		color: $background;
 		padding-top: 20px; padding-bottom: 10px;
 	}
 
@@ -112,13 +109,13 @@ a {
 		float: right;
 		padding: 10px 15px;
 		margin: 5px 0 0 15px;
-		color: $menu;
+		color: $background;
 
-		&.contact {background-color: $menu; color: $topbar; @include lato(300);}
-		&.blog:hover {background-color: $menu-blue;}
-		&.work:hover {background-color: $menu-red;}
-		&.about:hover {background-color: $menu-orange;}
-		&.contact:hover {background-color: $menu-green;}
+		&.contact {background-color: $background; color: $black; @include lato(300);}
+		&.blog:hover {background-color: $blue;}
+		&.work:hover {background-color: $red;}
+		&.about:hover {background-color: $orange;}
+		&.contact:hover {background-color: $green;}
 	}
 }
 
@@ -126,18 +123,17 @@ a {
 // Index Page
 .container-splash {
 	text-align: center;
-	// background-color: $menu;
 	padding: 50px 0 20px 0;
 
 	.circular {
 		width: 200px; height: 200px;
 		border-radius: 100px;
-		border: solid 6px $topbar;
+		border: solid 6px $black;
 		margin-bottom: 20px;
 	}
 
-	h3 {@include lato(300); color: $topbar;}
-	h4 {@include lato(300); color: $topbar;}
+	h3 {@include lato(300); color: $black;}
+	h4 {@include lato(300); color: $black;}
 }
 
 .container-example {
@@ -168,7 +164,7 @@ a {
 ////////////////////////////////////
 // Blog Posts and Posts List Layouts
 .container-blog {
-	@include container-title($menu-blue);
+	@include container-title($blue);
 }
 
 .posts-list {
@@ -178,15 +174,15 @@ a {
 
 		h4, h5, h6 {margin: 0;}
 
-		h5,h6 {color: $topbar; @include lato(100);}
+		h5,h6 {color: $black; @include lato(100);}
 
 		.posts-link {
 			@include lato(300);
-			color: $topbar;
+			color: $black;
 			h4 {
                 @include fadein(color);
-				color: $topbar;
-				&:hover {color:$menu-blue;}
+				color: $black;
+				&:hover {color:$blue;}
 			}
 		}
 	}
@@ -197,13 +193,13 @@ a {
 	.title {
 		@include arvo(400);
 		text-align: center;
-		color: $menu-blue;
+		color: $blue;
 	}
 	.sub-title {
 		margin-top: 5px;
 		padding: 5px 0;
 		span {
-			color: $menu-blue;
+			color: $blue;
 			text-align: center;
 			@include lato(300);
 			i {
@@ -233,24 +229,24 @@ a {
 
 ////////////
 // Work Page
-.container-title {@include container-title($menu-red);}
+.container-title {@include container-title($red);}
 .container-rdc, .container-more {
 	@include container-light;
 	a {
 		@include fadein(color);
-		@include link-hover($menu-red);}
+		@include link-hover($red);}
 	}
 .container-ml {
 	@include container-dark;
 	a {
 		@include fadein(color);
-		@include link-hover($menu-red);}
+		@include link-hover($red);}
 }
 
 /////////////
 // About Page
 
-.container-about {@include container-title($menu-orange);}
+.container-about {@include container-title($orange);}
 
 
 ///////////////
@@ -260,7 +256,7 @@ input[type="email"]
 {
   background-color: white;
   border: 1px solid #cccccc;
-  color: $topbar;
+  color: $black;
   margin: 0 0 10px 0;
   padding: 0.5em;
   height: 2.3125em;
@@ -274,7 +270,7 @@ input.subject {
 textarea {
   background-color: white;
   border: 1px solid #cccccc;
-  color: $topbar;
+  color: $black;
   margin: 0 0 1em 0;
   padding: 0.5em;
   height: 150px;
@@ -282,17 +278,17 @@ textarea {
 }
 
 input[type="submit"] {
-	background-color: $menu-green;
+	background-color: $green;
 	border: none;
 	padding: 10px 32px;
 	@include fadein(background-color);
 
 	&:hover {
-		background-color: darken($menu-green, 7%);
+		background-color: darken($green, 7%);
 	}
 }
 
-.container-contact {@include container-title(darken($menu-green,5%));}
+.container-contact {@include container-title(darken($green,5%));}
 .container-contact-mail  {
     margin-top: 75px; 
     text-align: center;
