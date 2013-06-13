@@ -152,12 +152,34 @@ a {
 	.logo {padding-bottom: 10px;}
 }
 
+.container-blog-batteries {
+	@include lato(400);
+	@include container-light;
+	h3 {
+		@include lato(300);
+		padding-bottom: 30px;
+	}
+	h4 {
+		@include lato(300);
+		font-weight:bold;
+		padding-bottom: 15px;
+	}
+}
+
 .container-blog-redux {
+	@include container-dark;
 	text-align:center;
 	padding-top: 30px;
 	h3 {@include lato(300); padding-bottom: 20px;}
 	h4 {@include lato(300); margin-bottom: 5px;}
 	p {margin-top: 0; margin-bottom: 40px; }
+	a {
+		color: $blue;
+		@include fadein(color);
+		&:hover {
+			color: darken($blue, 10%);
+		}
+	}
 }
 
 
