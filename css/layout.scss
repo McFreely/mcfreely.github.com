@@ -222,6 +222,7 @@ a {
 	.title {
 		@include arvo(400);
 		text-align: center;
+		margin-top: 20px;
 		color: darken($blue, 15%);
 	}
 	.sub-title {
@@ -246,7 +247,6 @@ a {
 	p {
 		padding-bottom: 10px;
 	}
-
 	.social-links {
 		margin: 0;
 	}
