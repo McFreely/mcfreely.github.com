@@ -36,7 +36,7 @@ $orange: #df9a33;
 
 // Mixins for the page title container
 @mixin container-title($color) {
-	padding: 50px 0 20px 0;
+	padding: 130px 0 20px 0;
 	margin-bottom: 30px;
 	background-color: $color;
 	h2{
@@ -76,6 +76,7 @@ $orange: #df9a33;
 body {
 	@extend %breakword !optional;
 	background-color: $background;
+	margin: 0px;
 }
 
 a {
@@ -89,7 +90,12 @@ a {
 ///////////
 // Menu Bar
 .topbar {
+	position: fixed;
+	top: 0;
+	z-index: 100000;
+	width: 100%;
 	background-color: $black;
+	
 	img {
 		float: left;
 		height: 90px;
@@ -123,7 +129,7 @@ a {
 // Index Page
 .container-splash {
 	text-align: center;
-	padding: 50px 0 20px 0;
+	padding: 130px 0 20px 0;
 
 	.circular {
 		width: 200px; height: 200px;
@@ -143,6 +149,7 @@ a {
 	h3 {
 		@include lato(300);
 		padding-bottom: 30px;
+		font-weight: bold;
 	}
 	h4 {
 		@include lato(300);
@@ -157,20 +164,21 @@ a {
 	@include container-light;
 	h3 {
 		@include lato(300);
-		padding-bottom: 30px;
+		font-weight:bold;
+		padding-bottom: 0px;
 	}
 	h4 {
 		@include lato(300);
-		font-weight:bold;
 		padding-bottom: 15px;
 	}
+	p {padding-bottom: 30px;}
 }
 
 .container-blog-redux {
 	@include container-dark;
 	text-align:center;
 	padding-top: 30px;
-	h3 {@include lato(300); padding-bottom: 20px;}
+	h3 {@include lato(300); font-weight:bold; padding-bottom: 20px;}
 	h4 {@include lato(300); margin-bottom: 5px;}
 	p {margin-top: 0; margin-bottom: 40px; }
 	a {
@@ -211,11 +219,10 @@ a {
 }
 
 .blog-post {
-	padding-top: 30px;
 	.title {
 		@include arvo(400);
 		text-align: center;
-		color: $blue;
+		color: darken($blue, 15%);
 	}
 	.sub-title {
 		margin-top: 5px;
