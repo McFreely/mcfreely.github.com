@@ -73,6 +73,8 @@ $orange: #df9a33;
 ///////////////////
 // General Layout Code
 
+html, body {height: 100%;}
+
 body {
 	@extend %breakword !optional;
 	background-color: $background;
@@ -276,6 +278,7 @@ a {
 // About Page
 
 .container-about {@include container-title($orange);}
+.about-page {margin-bottom: 250px;}
 
 
 ///////////////
@@ -324,8 +327,33 @@ input[type="submit"] {
     h3 {@include arvo(400);}
 }
 .container-contact-social {
-    margin-top: 100px; 
+    margin-top: 100px;
     text-align: center; 
     h3 {@include arvo(400);}
 }
+
+//////////
+// Footer 
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -5em;
+}
+.container-footer, .push {
+	height: 5em;
+}
+
+.container-footer {
+	background-color: $black;
+	text-align: center;
+	padding-top: 20px;
+	h5, p{
+		color: darken($background, 60%);	
+	}
+	h5, p {margin:0;}
+	p {display:inline;} 
+}
+
 
