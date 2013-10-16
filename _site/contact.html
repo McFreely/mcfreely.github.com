@@ -9,9 +9,13 @@
   <meta name="author" content="Paul McFreely">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/foundation.css">
   <link rel="stylesheet" href="/css/grid.css">
-  <link rel="stylesheet" href="/css/typeplate.css">
   <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/mobile.css">
+  <!-- <link rel="stylesheet" href="/css/typeplate.css"> -->
+  
+
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
@@ -20,8 +24,9 @@
 </head>
 <body>
 
+<div class='wrapper'>
 <section class="topbar">
-  <section class="row ">
+  <section class="row">
     <div class="large-5 columns home-link">
       <a href="/">
         <img src="/images/logo.jpg">
@@ -30,10 +35,10 @@
     </div>
 
     <menu class="large-5 large-offset-2 columns menu">
-      <a href="/contact.html"><h5 class="delta contact">Hire Me</h5></a>
-      <a href="/about.html"><h5 class="delta about">About</h5></a>
-      <a href="/projects.html"><h5 class="delta work">Work</h5></a>
-      <a href="/blog.html"><h5 class="delta blog">Blog</h5></a>
+      <a href="/contact.html"><h5 class="contact">Hire Me</h5></a>
+      <a href="/about.html"><h5 class="about">About</h5></a>
+      <a href="/projects.html"><h5 class="work">Work</h5></a>
+      <a href="/blog.html"><h5 class="blog">Blog</h5></a>
     </menu>
   </section>
 </section>
@@ -54,11 +59,9 @@
 	</div>
 	<div class="row">
 		<div class='large-12 columns'>
-		<form action="http://getsimpleform.com/messages?form_api_token=<form_api_token>" method="post">
-
+		<form action="http://getsimpleform.com/messages?form_api_token=af9934de854c7ac17145ee9427e50b98" method="post">
         <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-        <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
-
+        <input type='hidden' name='redirect_to' value='http://localhost:4000/thanks.html' />
         <!-- all your input fields here.... -->
         <input type='text' placeholder='Your name' name='name'/>
         <input type='email' placeholder='Your email address' name='email'/></br>
@@ -73,27 +76,53 @@
 <div class="container-contact-social">
 <div class="row">
 	<h3>Or you can find me there</h3>
+	<h6>( Kinda like a bat signal... )</h6>
 	<div class="large-4 columns">
 		<a href="http://github.com/mcfreely">
-			<img src="/images/github.png" alt="" height="128px" width="128px">
+			<img src="/images/github-square.jpg" alt="" height="128px" width="128px">
 		</a>
-		<h6>Github</h6>
+		<p>You can view some of my code</p>
 	</div>
 
 	<div class="large-4 columns">
-		<a href="http://twitter.com/paulrmcfreely">
-			<img src="/images/twitter.png" alt="" height="128" width="128px">
+		<a href="http://twitter.com/paulmcfreely">
+			<img src="/images/twitter-square.jpg" alt="" height="128" width="128px">
 		</a>
-		<h6>Twitter</h6>
+		<p>You can read some of my ramblings, for free!</p>
 	</div>
 
     <div class="large-4 columns">
-		<a href="mailto:paulmcfreely@gmail.com">
-			<img src="/images/gmail.png" alt="" height="128px" width="128px">
+		<a href="http://stackoverflow.com/users/2744657/paul-mcfreely">
+			<img src="/images/SO-square.jpg" alt="" height="128px" width="128px">
 		</a>
-		<h6>Mail</h6>
+		<p>You can look at my reputation</p>
 	</div>
 </div>
 </div>
+<div class="push"></div>
+	</div>
+		<footer class="container-footer">
+			<div class="row">
+				<div class="large-6 columns large-offset-3">
+					<h5>Copyright 2013 Paul McFreely</h5>
+					<p>This site is powered by Jekyll and Github Pages</p>
+				</div>
+			</div>
+		</footer>
 
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', "UA-36935538-1"]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+	</body>
+</html>

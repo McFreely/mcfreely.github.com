@@ -9,9 +9,13 @@
   <meta name="author" content="Paul McFreely">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/foundation.css">
   <link rel="stylesheet" href="/css/grid.css">
-  <link rel="stylesheet" href="/css/typeplate.css">
   <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/mobile.css">
+  <!-- <link rel="stylesheet" href="/css/typeplate.css"> -->
+  
+
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
@@ -21,7 +25,7 @@
 <body>
 
 <section class="topbar">
-  <section class="row ">
+  <section class="row">
     <div class="large-5 columns home-link">
       <a href="/">
         <img src="/images/logo.jpg">
@@ -30,25 +34,34 @@
     </div>
 
     <menu class="large-5 large-offset-2 columns menu">
-      <a href="/contact.html"><h5 class="delta contact">Hire Me</h5></a>
-      <a href="/about.html"><h5 class="delta about">About</h5></a>
-      <a href="/projects.html"><h5 class="delta work">Work</h5></a>
-      <a href="/blog.html"><h5 class="delta blog">Blog</h5></a>
+      <a href="/contact.html"><h5 class="contact">Hire Me</h5></a>
+      <a href="/about.html"><h5 class="about">About</h5></a>
+      <a href="/projects.html"><h5 class="work">Work</h5></a>
+      <a href="/blog.html"><h5 class="blog">Blog</h5></a>
     </menu>
   </section>
 </section>
+
+<!-- <div class="container-blog">
+  <div class="row">
+    <div class="large-12 columns">
+      <a href="/blog.html">
+      	<h2>:: Blog</h2>
+      </a>
+
+    </div>
+  </div>
+</div> -->
+
 <div class="row">
 <article class="large-8 large-offset-2 columns blog-post">
 	<h2 class="title">The Post Mortem Of A Colourful Network</h2>
 	<img src="/images/banners/color.jpg" alt="a random social network" class="banner">
 	<div class="sub-title row">
-		<span class="post-date large-4 columns">
+		<span class="post-date large-4 small-6 columns">
 			<i class="icon-calendar"></i>28 Feb 2013
 		</span>
-		<span class="post-status large-4 columns">
-			<i class="icon-copy"></i>Draft n°2
-		</span>
-		<span class="post-tags large-4 columns">
+		<span class="post-tags large-4 small-6 columns">
 			<i class="icon-tag"></i>Van Gogh
 		</span>
 	</div>
@@ -120,4 +133,29 @@
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     </div>
 </div>
+	</div>
+		<footer class="container-footer">
+			<div class="row">
+				<div class="large-6 columns large-offset-3">
+					<h5>Copyright 2013 Paul McFreely</h5>
+					<p>This site is powered by Jekyll and Github Pages</p>
+				</div>
+			</div>
+		</footer>
 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', "UA-36935538-1"]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+	</body>
+</html>

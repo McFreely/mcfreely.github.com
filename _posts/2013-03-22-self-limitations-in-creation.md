@@ -18,10 +18,10 @@ Its a good thing to have for me because I observed early on using this method th
 The concept of a pool of ideas is still important, at least to me, to spark creativity.
 When starting to develop this habit, I made a terrible mistake. The process went something like this:
 
-		1. Lightbuld idea moment in the shower
-		2. Jott it down on phone
-		3. Few days later, look if it has already been done
-		4. If yes, discard it
+	    1. Lightbuld idea moment in the shower
+	    2. Jott it down on phone
+	    3. Few days later, look if it has already been done
+	    4. If yes, discard it
 
 
 I wanted to be efficient in the selection of my ideas. Efficiency came maily through speed. I was naïve.

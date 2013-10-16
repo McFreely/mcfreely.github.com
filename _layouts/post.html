@@ -1,7 +1,7 @@
 {% include head.html %}
 {% include menu.html %}
 
-<div class="container-blog">
+<!-- <div class="container-blog">
   <div class="row">
     <div class="large-12 columns">
       <a href="/blog.html">
@@ -10,17 +10,17 @@
 
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="row">
 <article class="large-8 large-offset-2 columns blog-post">
 	<h2 class="title">{{ page.title }}</h2>
 	<img src="{{ page.image }}" alt="{{ page.placeholder }}" class="banner">
 	<div class="sub-title row">
-		<span class="post-date large-4 columns">
+		<span class="post-date large-4 small-6 columns">
 			<i class="icon-calendar"></i>{{ page.date || date_to_string }}
 		</span>
-		<span class="post-tags large-4 columns">
+		<span class="post-tags large-4 small-6 columns">
 			<i class="icon-tag"></i>{{page.tags}}
 		</span>
 	</div>

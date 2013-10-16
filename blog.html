@@ -16,12 +16,12 @@ title: Archives
       {% for post in site.posts %}
       <tr>
         <td>
-          <h6>
+          <h6 class="post-categor">
             {{ post.date || date_to_string }}
           </h6>
         </td>
         <td>
-          <h5>{{post.category}}</h5>
+          <h5 class="post-category">{{post.category}}</h5>
         </td>
         <td>
           <a href="{{ post.url }}" class="posts-link">

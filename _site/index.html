@@ -9,9 +9,13 @@
   <meta name="author" content="Paul McFreely">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/foundation.css">
   <link rel="stylesheet" href="/css/grid.css">
-  <link rel="stylesheet" href="/css/typeplate.css">
   <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/mobile.css">
+  <!-- <link rel="stylesheet" href="/css/typeplate.css"> -->
+  
+
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
@@ -20,8 +24,9 @@
 </head>
 <body>
 
+<div class='wrapper'>
 <section class="topbar">
-  <section class="row ">
+  <section class="row">
     <div class="large-5 columns home-link">
       <a href="/">
         <img src="/images/logo.jpg">
@@ -30,10 +35,10 @@
     </div>
 
     <menu class="large-5 large-offset-2 columns menu">
-      <a href="/contact.html"><h5 class="delta contact">Hire Me</h5></a>
-      <a href="/about.html"><h5 class="delta about">About</h5></a>
-      <a href="/projects.html"><h5 class="delta work">Work</h5></a>
-      <a href="/blog.html"><h5 class="delta blog">Blog</h5></a>
+      <a href="/contact.html"><h5 class="contact">Hire Me</h5></a>
+      <a href="/about.html"><h5 class="about">About</h5></a>
+      <a href="/projects.html"><h5 class="work">Work</h5></a>
+      <a href="/blog.html"><h5 class="blog">Blog</h5></a>
     </menu>
   </section>
 </section>
@@ -42,34 +47,53 @@
 	<div class="row">
 		<div class="large-12 columns">
 			<img src="/images/photo_profil_class.jpg"  class="circular" />
-			<h3>I'm Paul McFreely & I'm a <b>Freelance Developper</b> from <b>France</b></h3>
-			<h4>I create Responsive Web <a href="/projects.htlm">Applications</a>, and I sometimes <a href='/blog.html'>write</a></h4>
+			<h3>I'm <b>Paul McFreely</b> & I'm a <b>Freelance Developper</b> from <b>France</b></h3>
+			<h4>I create <a href="/projects.htlm">Web Applications</a>, using Ruby, Sinatra and Rails.</h4> <h4>I <a href='/blog.html'>write</a> from time to time</h4>
 		</div>
 	</div>
 </div>
 
 <div class="container-example">
 	<div class="row">
-			<h3>Some of the things I do :</h3>
+			<h3>Here is what I can do for you :</h3>
 	</div>
+
 	<div class="row">
 		<div class="large-4 columns example">
 			<h4>Web Apps</h4>
-			<img src='/images/responsive.png' class="logo">
-			<p>You need help with the creation or maintenance of your web application? 
+			<img src='/images/responsive_c.png' class="logo">
+			<p>You need help with the creation or maintenance of your web application? You're exited about your new idea but don't know how it can come to life ?
 			</br>I can help you with that.</p>
 		</div>
 		<div class="large-4 columns example">
 			<h4>Prototypes</h4>
-			<img src='/images/prototype.png' class="logo">
-			<p>You have an idea for the next big thing(tm) but you're not sure if it can succeed?
-			</br>I can help you by creating a prototype in a few weeks and help you test your idea.</p>
+			<img src='/images/prototype_c.png' class="logo">
+			<p>You have an idea for the next big thing(tm) but you're not sure if it will be successful?
+			</br>I can create a prototype for you in a few weeks and help you test your idea.</p>
 		</div>
 		<div class="large-4 columns example">
 			<h4>E-Commerce Websites</h4>
-			<img src='/images/store.png' class="logo">
-			<p>You've created a realy nice product or brand, but you're not sure about how to sell it online?
-			</br> I can help you with that.</p>
+			<img src='/images/store_c.png' class="logo">
+			<p>You've created a realy nice product or brand, but you're not sure how to sell it online?
+			</br> I can work with you to choose the best solution and develop it.</p>
+		</div>
+	</div>
+</div>
+
+<div class="container-blog-batteries">
+	<div class="row">
+		<div class="large-12 columns">
+			<h3>Batteries Included :</h3>
+			<p>Some of the elements that all the projects I work on embody</p>
+		</div>
+		<div class="row">
+			<div class="large-8 large-offset-2 columns">
+				<h5>Repsonsivity</h5>
+				<p>I devellop all my projects with usability in mind. Today this mean being accessible
+					on all devices, be it desktop or mobile. I take a great care to offer a wonderful experience on both platforms.</p>
+				<h5>Reliability</h5>
+				<p>All my projects are solid-proof against the hardship of a real life audience. They are tested and maintained to face a great deal of stress. And if something goes wrong, I will fix it quickly and solidly.</p>
+			</div>
 		</div>
 	</div>
 </div>
@@ -77,7 +101,12 @@
 <div class="container-blog-redux">
 	<div class="row">
 		<div class="large-12 columns">
-			<h3>The latest from the blog</h3>
+			<h3>From the blog :</h3>
+			
+			    <h4>
+			    	<a href='/2013/04/08/No-worries.html'>No Worries</a>
+			    </h4>
+			    <p></p>
 			
 			    <h4>
 			    	<a href='/essay/2013/03/22/self-limitations-in-creation.html'>Self-Limitations in Creation</a>
@@ -89,13 +118,33 @@
 			    </h4>
 			    <p>A little bit more details about the architecture of the RDC project.</p>
 			
-			    <h4>
-			    	<a href='/essay/2013/03/14/Exploration-of-Social-Networks.html'>Exploration of Social Networks</a>
-			    </h4>
-			    <p>The first article in a series about the state of social networks in 2013.</p>
-			
 		</div>
 	</div>
 </div>
+<div class="push"></div>
+	</div>
+		<footer class="container-footer">
+			<div class="row">
+				<div class="large-6 columns large-offset-3">
+					<h5>Copyright 2013 Paul McFreely</h5>
+					<p>This site is powered by Jekyll and Github Pages</p>
+				</div>
+			</div>
+		</footer>
 
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', "UA-36935538-1"]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+	</body>
+</html>

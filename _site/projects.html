@@ -9,9 +9,13 @@
   <meta name="author" content="Paul McFreely">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/foundation.css">
   <link rel="stylesheet" href="/css/grid.css">
-  <link rel="stylesheet" href="/css/typeplate.css">
   <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/mobile.css">
+  <!-- <link rel="stylesheet" href="/css/typeplate.css"> -->
+  
+
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
@@ -20,8 +24,9 @@
 </head>
 <body>
 
+<div class='wrapper'>
 <section class="topbar">
-  <section class="row ">
+  <section class="row">
     <div class="large-5 columns home-link">
       <a href="/">
         <img src="/images/logo.jpg">
@@ -30,21 +35,21 @@
     </div>
 
     <menu class="large-5 large-offset-2 columns menu">
-      <a href="/contact.html"><h5 class="delta contact">Hire Me</h5></a>
-      <a href="/about.html"><h5 class="delta about">About</h5></a>
-      <a href="/projects.html"><h5 class="delta work">Work</h5></a>
-      <a href="/blog.html"><h5 class="delta blog">Blog</h5></a>
+      <a href="/contact.html"><h5 class="contact">Hire Me</h5></a>
+      <a href="/about.html"><h5 class="about">About</h5></a>
+      <a href="/projects.html"><h5 class="work">Work</h5></a>
+      <a href="/blog.html"><h5 class="blog">Blog</h5></a>
     </menu>
   </section>
 </section>
 
-  <div class="container-title">
+<div class="container-work">
   <div class="row">
       <div class="large-12 columns">
         <h2>:: Work</h2>
       </div>
   </div>
-  </div>
+</div>
 
   <div class="container-rdc">
     <div class="row">
@@ -81,12 +86,37 @@
 <div class="row">
   <div class="large-10 large-offset-1 columns">
     <section>
-      <h3> And more to come in the future... <a href="mailto:paulmcfreely@gmail.com">Maybe yours</a> ?
+      <h3> And more to come in the future... <a href="/contact.html">Maybe yours</a> ?
     </section>
   </div>
 </div>
 </div>
 
 
+<div class="push"></div>
+	</div>
+		<footer class="container-footer">
+			<div class="row">
+				<div class="large-6 columns large-offset-3">
+					<h5>Copyright 2013 Paul McFreely</h5>
+					<p>This site is powered by Jekyll and Github Pages</p>
+				</div>
+			</div>
+		</footer>
 
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', "UA-36935538-1"]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+	</body>
+</html>

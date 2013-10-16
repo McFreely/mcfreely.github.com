@@ -42,6 +42,7 @@ $orange: #df9a33;
 	h2{
 		@include lato(300);
 		color: $background;
+		margin: 50px 0 0 0;
 	}
 }
 
@@ -116,7 +117,7 @@ a {
 		@include fadein(background);
 		float: right;
 		padding: 10px 15px;
-		margin: 5px 0 0 15px;
+		margin: 15px 0 0 15px;
 		color: $background;
 
 		&.contact {background-color: $background; color: $black; @include lato(300);}
@@ -206,7 +207,7 @@ a {
 
 		h4, h5, h6 {margin: 0;}
 
-		h5,h6 {color: $black; @include lato(100);}
+		h5,h6 {color: lighten($black, 50%); @include lato(300);}
 
 		.posts-link {
 			@include lato(300);
@@ -221,6 +222,7 @@ a {
 }
 
 .blog-post {
+	margin-top: 130px;
 	.title {
 		@include arvo(400);
 		text-align: center;
@@ -260,7 +262,7 @@ a {
 
 ////////////
 // Work Page
-.container-title {@include container-title($red);}
+.container-work {@include container-title($red);}
 .container-rdc, .container-more {
 	@include container-light;
 	a {
