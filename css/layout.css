@@ -45,7 +45,7 @@ a {
     transition: background 0.4s ease-in-out;
     float: right;
     padding: 10px 15px;
-    margin: 5px 0 0 15px;
+    margin: 15px 0 0 15px;
     color: #f7f7f7; }
     .topbar menu a h5.contact {
       background-color: #f7f7f7;
@@ -183,7 +183,8 @@ a {
   .container-blog h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    color: #f7f7f7; }
+    color: #f7f7f7;
+    margin: 50px 0 0 0; }
 
 .posts-list h2 {
   font-family: 'Lato', sans-serif;
@@ -193,9 +194,9 @@ a {
   .posts-list td h4, .posts-list td h5, .posts-list td h6 {
     margin: 0; }
   .posts-list td h5, .posts-list td h6 {
-    color: #171717;
+    color: #979797;
     font-family: 'Lato', sans-serif;
-    font-weight: 100; }
+    font-weight: 300; }
   .posts-list td .posts-link {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -210,43 +211,46 @@ a {
       .posts-list td .posts-link h4:hover {
         color: #33b1df; }
 
-.blog-post .title {
-  font-family: 'Arvo', serif;
-  font-weight: 400;
-  text-align: center;
-  margin-top: 20px;
-  color: #1b84ab; }
-.blog-post .sub-title {
-  margin-top: 5px;
-  padding: 5px 0; }
-  .blog-post .sub-title span {
-    color: #33b1df;
+.blog-post {
+  margin-top: 130px; }
+  .blog-post .title {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
     text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300; }
-    .blog-post .sub-title span i {
-      padding-right: 10px; }
-.blog-post h3 {
-  font-family: 'Arvo', serif;
-  font-weight: 400;
-  text-align: left;
-  margin-top: 20px; }
-.blog-post p {
-  padding-bottom: 10px; }
-.blog-post .social-links {
-  margin: 0; }
+    margin-top: 20px;
+    color: #1b84ab; }
+  .blog-post .sub-title {
+    margin-top: 5px;
+    padding: 5px 0; }
+    .blog-post .sub-title span {
+      color: #33b1df;
+      text-align: center;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300; }
+      .blog-post .sub-title span i {
+        padding-right: 10px; }
+  .blog-post h3 {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 20px; }
+  .blog-post p {
+    padding-bottom: 10px; }
+  .blog-post .social-links {
+    margin: 0; }
 
 .comments {
   margin-top: 50px; }
 
-.container-title {
+.container-work {
   padding: 130px 0 20px 0;
   margin-bottom: 30px;
   background-color: #df334b; }
-  .container-title h2 {
+  .container-work h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    color: #f7f7f7; }
+    color: #f7f7f7;
+    margin: 50px 0 0 0; }
 
 .container-rdc, .container-more {
   padding: 50px 0;
@@ -302,7 +306,8 @@ a {
   .container-about h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    color: #f7f7f7; }
+    color: #f7f7f7;
+    margin: 50px 0 0 0; }
 
 .about-page {
   margin-bottom: 250px; }
@@ -350,7 +355,8 @@ input[type="submit"] {
   .container-contact h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    color: #f7f7f7; }
+    color: #f7f7f7;
+    margin: 50px 0 0 0; }
 
 .container-contact-mail {
   margin-top: 75px;

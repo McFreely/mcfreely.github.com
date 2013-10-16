@@ -1,0 +1,61 @@
+@media (max-width: 960px) {
+  .topbar h2 {
+    font-size: 2em;
+    margin-top: 10px; }
+  .topbar menu a h5 {
+    font-size: 0.9em;
+    padding: 7px;
+    margin-top: 15px; } }
+@media (max-width: 768px) {
+  .topbar {
+    position: relative; }
+    .topbar h2 {
+      margin-top: 12px; }
+    .topbar img {
+      width: 50px;
+      height: 50px;
+      margin: 20px 0 0 5px; }
+    .topbar menu a h5 {
+      padding: 3px;
+      margin-top: 0; }
+
+  .container-splash {
+    padding: 50px 0 20px 0; }
+
+  .container-blog {
+    padding-top: 70px; }
+    .container-blog h2 {
+      margin: -30px 0 0 0; }
+
+  .blog-post {
+    margin-top: 0px; }
+
+  .posts-list .post-category {
+    display: none; }
+  .posts-list td {
+    padding: 5px 10px 10px 0; }
+
+  .container-work {
+    padding-top: 70px; }
+    .container-work h2 {
+      margin: -30px 0 0 0; }
+
+  .container-about {
+    padding-top: 70px; }
+    .container-about h2 {
+      margin: -30px 0 0 0; }
+
+  .container-contact {
+    padding-top: 70px; }
+    .container-contact h2 {
+      margin: -30px 0 0 0; }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 90%; }
+
+  textarea {
+    width: 95%; }
+
+  .container-footer {
+    padding-top: 9px; } }
