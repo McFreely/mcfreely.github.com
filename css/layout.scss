@@ -132,16 +132,15 @@ a {
 // Index Page
 .container-splash {
 	text-align: center;
-	padding: 130px 0 20px 0;
+	padding-top: 110px;
+	position: relative;
+	background-color: $black;
 
-	.circular {
-		width: 200px; height: 200px;
-		border-radius: 100px;
-		border: solid 6px $black;
-		margin-bottom: 20px;
-	}
+	img {float: left;}
+	h2#first-line { position: absolute; top: 100px; left: 350px;}
+	h2#second-line { position: absolute; top: 150px; left: 550px;}
 
-	h3 {@include lato(300); color: $black;}
+	h2 {@include lato(300); color: $background;}
 	h4 {@include lato(300); color: $black;}
 }
 
