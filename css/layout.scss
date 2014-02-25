@@ -263,16 +263,20 @@ a {
 // Work Page
 .container-work {@include container-title($red);}
 .container-rdc, .container-more {
-	@include container-light;
-	a {
-		@include fadein(color);
-		@include link-hover($red);}
-	}
-.container-ml {
 	@include container-dark;
 	a {
 		@include fadein(color);
 		@include link-hover($red);}
+	}
+.container-ml, .container-factur {
+	@include container-light;
+	a {
+		@include fadein(color);
+		@include link-hover($red);}
+}
+
+.container-factur {
+	img {width : 705px;}
 }
 
 /////////////

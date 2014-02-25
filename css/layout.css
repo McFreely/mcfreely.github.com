@@ -63,17 +63,23 @@ a {
 
 .container-splash {
   text-align: center;
-  padding: 130px 0 20px 0; }
-  .container-splash .circular {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    border: solid 6px #171717;
-    margin-bottom: 20px; }
-  .container-splash h3 {
+  padding-top: 110px;
+  position: relative;
+  background-color: #171717; }
+  .container-splash img {
+    float: left; }
+  .container-splash h2#first-line {
+    position: absolute;
+    top: 100px;
+    left: 350px; }
+  .container-splash h2#second-line {
+    position: absolute;
+    top: 150px;
+    left: 550px; }
+  .container-splash h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    color: #171717; }
+    color: #f7f7f7; }
   .container-splash h4 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -254,7 +260,8 @@ a {
 
 .container-rdc, .container-more {
   padding: 50px 0;
-  text-align: center; }
+  text-align: center;
+  background-color: #eaeaea; }
   .container-rdc h2, .container-more h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -275,29 +282,31 @@ a {
     .container-rdc a:hover, .container-more a:hover {
       color: #b81d32; }
 
-.container-ml {
+.container-ml, .container-factur {
   padding: 50px 0;
-  text-align: center;
-  background-color: #eaeaea; }
-  .container-ml h2 {
+  text-align: center; }
+  .container-ml h2, .container-factur h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     padding-top: 25px; }
-  .container-ml a, .container-ml p {
+  .container-ml a, .container-ml p, .container-factur a, .container-factur p {
     font-family: 'Lato', sans-serif;
     font-weight: 300; }
-  .container-ml a {
+  .container-ml a, .container-factur a {
     color: #df334b; }
-  .container-ml p {
+  .container-ml p, .container-factur p {
     font-size: 20px; }
-  .container-ml a {
+  .container-ml a, .container-factur a {
     -webkit-transition: color 0.4s ease-in-out;
     -moz-transition: color 0.4s ease-in-out;
     -ms-transition: color 0.4s ease-in-out;
     -o-transition: color 0.4s ease-in-out;
     transition: color 0.4s ease-in-out; }
-    .container-ml a:hover {
+    .container-ml a:hover, .container-factur a:hover {
       color: #b81d32; }
+
+.container-factur img {
+  width: 705px; }
 
 .container-about {
   padding: 130px 0 20px 0;
