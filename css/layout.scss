@@ -362,3 +362,16 @@ input[type="submit"] {
 }
 
 
+
+/////////////////
+// Mobile styling
+
+@media only screen and (max-width : 768px){
+   .container-splash {
+		display: none;
+ }
+ 	.topbar .home-link h2 {font-size: 1.6em; padding-bottom: 0;}
+
+ 	.topbar menu a h5 { font-size: 1.2em}
+}
+
