@@ -132,16 +132,15 @@ a {
 // Index Page
 .container-splash {
 	text-align: center;
-	padding: 130px 0 20px 0;
+	padding-top: 110px;
+	position: relative;
+	background-color: $black;
 
-	.circular {
-		width: 200px; height: 200px;
-		border-radius: 100px;
-		border: solid 6px $black;
-		margin-bottom: 20px;
-	}
+	img {float: left;}
+	h2#first-line { @include lato(400); color: darken(white, 10%); position: absolute; top: 100px; left: 400px; background: $red; padding: 5px 15px}
+	h2#second-line {@include lato(400); color: darken(white, 10%); position: absolute; top: 170px; left: 575px; background: $red; padding: 5px 15px}
 
-	h3 {@include lato(300); color: $black;}
+	h2 {@include lato(300); color: $background;}
 	h4 {@include lato(300); color: $black;}
 }
 
@@ -264,16 +263,20 @@ a {
 // Work Page
 .container-work {@include container-title($red);}
 .container-rdc, .container-more {
-	@include container-light;
-	a {
-		@include fadein(color);
-		@include link-hover($red);}
-	}
-.container-ml {
 	@include container-dark;
 	a {
 		@include fadein(color);
 		@include link-hover($red);}
+	}
+.container-ml, .container-factur {
+	@include container-light;
+	a {
+		@include fadein(color);
+		@include link-hover($red);}
+}
+
+.container-factur {
+	img {width : 705px;}
 }
 
 /////////////
@@ -358,4 +361,17 @@ input[type="submit"] {
 	p {display:inline;} 
 }
 
+
+
+/////////////////
+// Mobile styling
+
+@media only screen and (max-width : 768px){
+   .container-splash {
+		display: none;
+ }
+ 	.topbar .home-link h2 {font-size: 1.6em; padding-bottom: 0;}
+
+ 	.topbar menu a h5 { font-size: 1.2em}
+}
 

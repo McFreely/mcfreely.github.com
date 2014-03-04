@@ -7,36 +7,38 @@ title: Archives
 <div class="container-splash">
 	<div class="row">
 		<div class="large-12 columns">
-			<img src="/images/photo_profil_class.jpg"  class="circular" />
-			<h3>I'm <b>Paul McFreely</b> & I'm a <b>Freelance Developper</b> from <b>France</b></h3>
-			<h4>I create <a href="/projects.htlm">Web Applications</a>, using Ruby, Sinatra and Rails.</h4> <h4>I <a href='/blog.html'>write</a> from time to time</h4>
+			<img class="hide-for-medium-down" src="/images/profile.JPG" />
+			<h2 class="hide-for-medium-down" id="first-line">Je suis Paul McFreely,</h3>
+			<h2 class="hide-for-medium-down" id="second-line">Consultant Web</h3>
+			
 		</div>
 	</div>
 </div>
 
 <div class="container-example">
 	<div class="row">
-			<h3>Here is what I can do for you :</h3>
+			<h3>Ce que je peux faire pour vous :</h3>
 	</div>
 
 	<div class="row">
 		<div class="large-4 columns example">
-			<h4>Web Apps</h4>
+			<h4>Application Web</h4>
 			<img src='/images/responsive_c.png' class="logo">
-			<p>You need help with the creation or maintenance of your web application? You're exited about your new idea but don't know how it can come to life ?
-			</br>I can help you with that.</p>
+			<p>
+			Vous avez besoin d'aide pour la création et la maintenance de votre application web ? Vous êtes enthousiaste pour votre nouvelle idée mais ne savez pas comment lui donner vie ?
+			</br>Je peux vous aider.</p>
 		</div>
 		<div class="large-4 columns example">
-			<h4>Prototypes</h4>
+			<h4>Prototype</h4>
 			<img src='/images/prototype_c.png' class="logo">
-			<p>You have an idea for the next big thing(tm) but you're not sure if it will be successful?
-			</br>I can create a prototype for you in a few weeks and help you test your idea.</p>
+			<p>Vous avez l'idée du siècle qui fera de vous un milliardiare, mais n'êtes pas sure si celle-ci est viable?
+			</br>Je peux créer pour vous un prototype en quelques semaines et vous aider à tester et valider votre projet.</p>
 		</div>
 		<div class="large-4 columns example">
-			<h4>E-Commerce Websites</h4>
+			<h4>Site E-Commerce</h4>
 			<img src='/images/store_c.png' class="logo">
-			<p>You've created a realy nice product or brand, but you're not sure how to sell it online?
-			</br> I can work with you to choose the best solution and develop it.</p>
+			<p>Vous avez créé un produit ou une marque qui va devenir très vite tendance mais vous n'êtes pas certain de savoir comment la vendre en ligne ?
+			</br> Je peux travailler avec vous pour choisir la solution qui vous convient et la mettre en ligne.</p>
 		</div>
 	</div>
 </div>
@@ -44,16 +46,15 @@ title: Archives
 <div class="container-blog-batteries">
 	<div class="row">
 		<div class="large-12 columns">
-			<h3>Batteries Included :</h3>
-			<p>Some of the elements that all the projects I work on embody</p>
+			<h3>Les piles sont incluses :</h3>
+			<p>Quelques element qui sont garantis dans chacun de mes projets :</p>
 		</div>
 		<div class="row">
 			<div class="large-8 large-offset-2 columns">
-				<h5>Repsonsivity</h5>
-				<p>I devellop all my projects with usability in mind. Today this mean being accessible
-					on all devices, be it desktop or mobile. I take a great care to offer a wonderful experience on both platforms.</p>
-				<h5>Reliability</h5>
-				<p>All my projects are solid-proof against the hardship of a real life audience. They are tested and maintained to face a great deal of stress. And if something goes wrong, I will fix it quickly and solidly.</p>
+				<h5>Responsivité</h5>
+				<p>Je developpe tous mes projet avec une grande aisance d'utilisation à l'esprit. Aujourd'hui cela signifie que le site soit accessible sur toutes les plateformes, y compris mobiles. Je prend soin que l'experience soit la plus agréable possible pour tous les utilisateurs.</p>
+				<h5>Résilience</h5>
+				<p>Tous mes projets sont testé pour faire face aux réalités d'une audience. Ils sont testé et ajustés pour subir un niveau de stress important. Et si quelque chose ce passe mal, je résoud le problème de manière dilligente et pour longtemps.</p>
 			</div>
 		</div>
 	</div>
@@ -62,7 +63,7 @@ title: Archives
 <div class="container-blog-redux">
 	<div class="row">
 		<div class="large-12 columns">
-			<h3>From the blog :</h3>
+			<h3>Derniers articles du blog :</h3>
 			{% for post in site.posts limit:3 %}
 			    <h4>
 			    	<a href='{{post.url}}'>{{ post.title}}</a>
