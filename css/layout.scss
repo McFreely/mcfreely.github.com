@@ -137,8 +137,8 @@ a {
 	background-color: $black;
 
 	img {float: left;}
-	h2#first-line { position: absolute; top: 100px; left: 350px;}
-	h2#second-line { position: absolute; top: 150px; left: 550px;}
+	h2#first-line { @include lato(400); color: darken(white, 10%); position: absolute; top: 100px; left: 400px; background: $red; padding: 5px 15px}
+	h2#second-line {@include lato(400); color: darken(white, 10%); position: absolute; top: 170px; left: 575px; background: $red; padding: 5px 15px}
 
 	h2 {@include lato(300); color: $background;}
 	h4 {@include lato(300); color: $black;}

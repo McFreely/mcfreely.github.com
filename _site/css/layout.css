@@ -84,14 +84,24 @@ a:hover {
   float: left;
 }
 .container-splash h2#first-line {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #e6e6e6;
   position: absolute;
   top: 100px;
-  left: 350px;
+  left: 400px;
+  background: #df334b;
+  padding: 5px 15px;
 }
 .container-splash h2#second-line {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #e6e6e6;
   position: absolute;
-  top: 150px;
-  left: 550px;
+  top: 170px;
+  left: 575px;
+  background: #df334b;
+  padding: 5px 15px;
 }
 .container-splash h2 {
   font-family: 'Lato', sans-serif;
