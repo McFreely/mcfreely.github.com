@@ -11,12 +11,12 @@ Mon nouveau projet. Un site de critique cinéma vraiment démocratique. Comment 
 
 ### L'inception
 
-J'ai longtemps voulu jouer avec différentes techniques de processing de langage naturel (NLP) pour quelques raisons. Premièrement, parce que c'est vraiment cool. Etant légèrement un geek de littérature, dès lors qu'il m'est possible de combiner le code et la prose, c'est tout de suite un grand plaisir. Deuxièmement, en travaillant sur quelques projets en pré-production (c'est-à-dire des idées dans un carnets), je me suis rendu compte que beaucoup des techniques sous-jacentes revenait souvent à la NLP. L'une d'entre elles étant l'analyse de sentiment (AS). L'AS est pratique, c'est une application directe des concepts des théories de NLP. 
+J'ai longtemps voulu jouer avec différentes techniques de processing de langage naturel (NLP) pour quelques raisons. Premièrement, parce que c'est vraiment cool. Étant légèrement un geek de littérature, dès lors qu'il m'est possible de combiner le code et la prose, c'est tout de suite un grand plaisir. Deuxièmement, en travaillant sur quelques projets en pré-production (c'est-à-dire des idées dans un carnets), je me suis rendu compte que beaucoup des techniques sous-jacentes revenait souvent à la NLP. L'une d'entre elles étant l'analyse de sentiment (AS). L'AS est pratique, c'est une application directe des concepts des théories de NLP. 
 
 C'est durant la même période que j'ai remarque le manque cruel de bon site de critique cinéma en français. A part Allociné qui est désormais complètement contaminé par les pubs, il n'y a presque rien. Pas de RottenTomatoes (RT), pas de Flixter, rien du tout.
 L'idée de créer quelque d'équivalent à RT fut donc évidente, mais avec un petit twist. les critiques ne serait pas celles de professionnels établit depuis des années, mais des gens du 'peuple', vous et moi et tous les autres.
 
-### Ca existe déjà, non ?
+### Ça existe déjà, non ?
 
 J'ai conscience que de tels concepts ont déjà été testé et approuvé, à différent niveaux de succès. Je souhaite le faire pour deux raisons: La première, comme précédemment expliqué, cela n'existe pas vraiment en français, à ma connaissance.
 La seconde est tout simplement l'opportunité d'apprendre différent aspect d'un même projet: l'aspect algorithmique, mais également l'aspect SysAdmin.

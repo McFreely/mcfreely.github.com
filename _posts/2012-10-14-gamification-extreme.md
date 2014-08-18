@@ -18,7 +18,7 @@ Quelque chose d'encore plus surprenant se produit: les gens se mettent en compé
 
 ### L'addiction
 
-Foursquare à pavé un chemin dangereux. De plus en plus d'app sont créées avec des aspects de "gamification". La plupart du temps ajoutés à un modèle préexistant (to-do list, travail collaboratif, etc...), parfois le point central de l'application. 
+Foursquare à pavé un chemin dangereux. De plus en plus d'apps sont créées avec des aspects de "gamification". La plupart du temps ajoutés à un modèle préexistant (to-do list, travail collaboratif, etc...), parfois le point central de l'application. 
 L'exemple le plus connus est [Fitocracy](https://www.fitocracy.com/). Gagner des point tout en faisant de l'exercice. Plutôt simple, extrêmement compétitif.
 
 Une majeure partie des ces apps oublient un concept clef lors de l'implémentation de ces mécaniques. Je continuerai d'utiliser l'exemple de fitocracy lors de ma démonstration.

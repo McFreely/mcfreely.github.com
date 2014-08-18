@@ -31,7 +31,7 @@ Redécouvrir des événement au travers des yeux d'inconnus me semblait intéres
 ### La Chute
 
 Malgré une couverture médiatique importante lors de son lancement (et pour cause, avec un investissement initial de 42 millions de dollars, il y avait de quoi dire), l'application n'a jamais vraiment décollée. Les innovations de l'interface, au niveau du reste de l'application et du concept, n'ont fais qu'ajouter à la confusions des premiers utilisateurs, incapables de comprendre son fonctionnement (j'en ai moi-même fais partie).
-C'était ici-même la condamnation à mort de l'application. Si personne ne peut utiliser votre application, aussi brillante soit elle, surtout lorsque c'est un réseau social, elle ne gagnera aucune traction. Le problème de l'oeuf et de la poule.
+C'était ici-même la condamnation à mort de l'application. Si personne ne peut utiliser votre application, aussi brillante soit elle, surtout lorsque c'est un réseau social, elle ne gagnera aucune traction. Le problème de l’œuf et de la poule.
 
 Le second problème à mon avis, plus subtil, était le sujet de l'application: une photo est trop personnelle et intime pour pouvoir la partager avec des inconnus. Personne ne se ballade dans la rue pour montrer à qui voudra les photos de sa soirée de la veille. 
 Malgré ces défauts, le concept central reste solide et attractif. Il pourrait être appliqué avec moins de difficultés à des domaines présentant moins de friction de partage. 

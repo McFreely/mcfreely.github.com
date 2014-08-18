@@ -15,7 +15,7 @@ Les gens seront déçu d'une manière qu'ils ne pouvait et ne pourront pas antic
 Le voyage dans le temps apportera la preuve irréfutable qu'il ne faisait pas mieux vivre dans le passé. Que l'époque n'était pas si bonne il y a quelque décennies. La vie n'était pas plus facile ou douce ou même simple.
 
 C'était simplement la même vie qu'aujourd'hui. Ce sera toujours la même vie.
-The idée peux changer radicalement un esprit nostalgique. La possibilité d'un meilleur futur, ou plutôt l'impossibilité d'un rêve, d'un espoir inspirée par les années le précédent. Une utopie partie en fumée.
+L'idée peux changer radicalement un esprit nostalgique. La possibilité d'un meilleur futur, ou plutôt l'impossibilité d'un rêve, d'un espoir inspirée par les années le précédent. Une utopie partie en fumée.
 
 Incidemment, paradoxalement, le voyage dans le temps sera inventé, mais ce n'est qu'un petit détail.
 
