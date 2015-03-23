@@ -3,34 +3,36 @@ layout: post
 title: RDC - République Démocratique du Cinéma
 image: /images/banners/liberte.jpg
 alt: Liberté guidant le peuple
-category: Technique
+category: Technical
 status: Draft n°2
 tags: Révolution
 ---
-Mon nouveau projet. Un site de critique cinéma vraiment démocratique. Comment cela est-il possible? Avec l'analyse de sentiments de milliers de tweets, tout simplement. Cet article est le premier d'une longue série, un introduction en quelque sorte.
 
-### L'inception
+My new project. A really democratic movie review website. How does one achieve this? Why, with sentiment analysis of tweets. This is the first post in a long series, an introduction if you will.
 
-J'ai longtemps voulu jouer avec différentes techniques de processing de langage naturel (NLP) pour quelques raisons. Premièrement, parce que c'est vraiment cool. Étant légèrement un geek de littérature, dès lors qu'il m'est possible de combiner le code et la prose, c'est tout de suite un grand plaisir. Deuxièmement, en travaillant sur quelques projets en pré-production (c'est-à-dire des idées dans un carnets), je me suis rendu compte que beaucoup des techniques sous-jacentes revenait souvent à la NLP. L'une d'entre elles étant l'analyse de sentiment (AS). L'AS est pratique, c'est une application directe des concepts des théories de NLP. 
+### The inception
 
-C'est durant la même période que j'ai remarque le manque cruel de bon site de critique cinéma en français. A part Allociné qui est désormais complètement contaminé par les pubs, il n'y a presque rien. Pas de RottenTomatoes (RT), pas de Flixter, rien du tout.
-L'idée de créer quelque d'équivalent à RT fut donc évidente, mais avec un petit twist. les critiques ne serait pas celles de professionnels établit depuis des années, mais des gens du 'peuple', vous et moi et tous les autres.
+I wanted to play for a long time with Natural Language Processing (NLP) for a few reasons. First, because it's cool. Being a litterature geek, when i can combine code and prose, it's more than a pleasure. Second, while working on a few projects in pre-production (meaning: in a sketchbook), I realized that a lot of the underlying tchniques needed were often coming back to NLP. One of them being Sentiment Analysis. Sentiment analysis is practical. It is hands on application of NLP theories.
 
-### Ça existe déjà, non ?
+At the same time, I observed the cruel lack of good movies reviews sites in french. Except for a subpar and ads-ridden "imdb", there is not a lot. No RottenTomatoes (RT), no Flixster, no nothing.
+So the idea to create something akin to RT came to mind, but with a spin. The reviews would not come from established professional critics but from average people. You, me and everybody else.
 
-J'ai conscience que de tels concepts ont déjà été testé et approuvé, à différent niveaux de succès. Je souhaite le faire pour deux raisons: La première, comme précédemment expliqué, cela n'existe pas vraiment en français, à ma connaissance.
-La seconde est tout simplement l'opportunité d'apprendre différent aspect d'un même projet: l'aspect algorithmique, mais également l'aspect SysAdmin.
+### Why do it, It already exists !
 
-Après avoir lu une discussion à propos d'Amazon AWS sur HackerNews, j'ai réalisé que le projet pouvait non seulement être divisé en son code mais également dans son infrastructure. J'essaierai donc quelques articles ayant pour sujet mes différentes explorations d'un solution, comment l'ensemble fonctionne, à la fois pour le code et pour les serveurs.
+I am aware that such concepts have already been tested and approved, to various level of success. I want to do it for two reasons. First, because as I previously mentionned, it doesn't really exists in french, not that I know of.
+Second, it will be a good learning opportunity on several aspects. The algorithmic aspect, but also the DevOps aspect.
 
-### Le Plan 
+After reading a discusion about AWS on HackerNews, I realized that the project could not only be decoupled in code but also in infrastructure. I will therefore try to write a couple articles about that solution, and how everything is working, both for the code and for the servers.
 
-J'expliquerai plus en détails l'architecture du projet dans le prochain article. Je me conterai pour le moment de n'en donner qu'une vue aérienne.
+### The Project Plan
+I will explain in a more in-depth fashion the "architecture" of the project in a future post. But for now, I'll just explain the broad view.
 
-L'idée est de récolter le plus possible de tweets à propos d'un film, de les agréger dans un liste, les analyser à l'aide d'un algorithme d'analyse de sentiments, stocker les résultats dans une base de donnée, les compléter avec des informations classique (poster, date de sortie, ...) et finalement montrer les résultats finals à l'audience du site. 
+So, the idea is to take tweets about a movie, aggregate them, analyse them with a sentiment analysis algorithm, put them in a database, complete them with classic infos about them (poster, year, ...) and finally dipslay the results to the audience. That's it for the basic concept.
 
-J'espère à terme pouvoir automatiser l'ensemble le plus possible, et faire en sorte qu'il ne requiert que le minimum de maintenance. J'en suis encore loin.
+I want to ultimately streamline everything and make it entirely automatic if possible. I'm not there yet.
 
-Je travail actuellement sur le MVP (Minimum Viable Product), après plusieurs nuits sans sommeil à décider de quelle manière m'y prendre. J'ai décidé que si j'y passais ne serait-ce qu'une minute de plus à y réfléchir, je ne commencerai jamais à concrètement travailler dessus. Donc oui, pour l'instant c'est rudimentaire, plus proche d'une preuve-de-concept. Vous pouvez suivre l'avancement et y participer sur [github](https://github.com/McFreely/RDC-Marianne).  
+I am currently working on the MVP, after many nights of pondering of how to do it. I decided that if I continued to ponder on various little details, it will never be done. So yes, it is rudimentary at the moment. It's mostly a proof of concept.
+You can check the advancement on github, everything starting with "RDC".
 
-Dans les prochains articles, j'explorerai plus en détails, et pas forcement dans cet ordre: l'architecture du projet, les différents élément d'AWS, les algorithmes possible pour l'analyse, le fonctionnement de l'ensemble ...
+Sorry if this is not really a technical post, but it's more suited here.
+In the next posts, i will explain furthermore, in no particular order: the detailed "architecture" of the project, the different parts of AWS, the possible algos for the analysis, how everything work together...

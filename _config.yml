@@ -1,9 +1,6 @@
 port: 4000
-pygments:    true
+highlighter:    true
 permalink:   date
 main_title:  "Paul McFreely"
 description: "Parfois, il m'arrive de mettre en formes mes idées ..."
-sass:
-  syntax: scss
-  style: expanded
 tracking_id: "UA-36935538-1"
